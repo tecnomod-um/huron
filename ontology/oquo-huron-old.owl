@@ -3486,8 +3486,8 @@
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
         <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.7)</rdfs:label>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.25)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3498,9 +3498,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalUpperValue>
-        <rdfs:label>interval [0.15..0.5)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.35</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.35)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3511,9 +3511,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.84</hasIntervalUpperValue>
-        <rdfs:label>interval [0.6..0.84)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.97</hasIntervalUpperValue>
+        <rdfs:label>interval [0.25..0.97)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3524,9 +3524,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</hasIntervalUpperValue>
-        <rdfs:label>interval [0.95..1.0)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.03</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalUpperValue>
+        <rdfs:label>interval [1.03..1.5)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3537,9 +3537,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.88</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.96</hasIntervalUpperValue>
-        <rdfs:label>interval [0.88..0.96)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.97</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.03</hasIntervalUpperValue>
+        <rdfs:label>interval [0.97..1.03)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3550,9 +3550,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.85</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalUpperValue>
-        <rdfs:label>interval [0.85..0.95)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalUpperValue>
+        <rdfs:label>interval [1.1..1.5)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3563,9 +3563,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.98</hasIntervalUpperValue>
-        <rdfs:label>interval [0.95..0.98)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalUpperValue>
+        <rdfs:label>interval [1.1..1.5)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3576,9 +3576,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.98</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.98..Infinity)</rdfs:label>
+        <rdfs:label>interval [1.5..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3615,9 +3615,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.5..Infinity)</rdfs:label>
+        <rdfs:label>interval [0.4..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3628,9 +3628,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalUpperValue>
-        <rdfs:label>interval [0.15..0.5)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalUpperValue>
+        <rdfs:label>interval [0.03..0.4)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3654,9 +3654,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalUpperValue>
-        <rdfs:label>interval [0.2..0.4)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalUpperValue>
+        <rdfs:label>interval [0.6..1.1)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3668,8 +3668,8 @@
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
         <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.75</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.75)</rdfs:label>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.25)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3680,9 +3680,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.55</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.85</hasIntervalUpperValue>
-        <rdfs:label>interval [0.55..0.85)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalUpperValue>
+        <rdfs:label>interval [0.9..1.1)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3706,9 +3706,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.45</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalUpperValue>
-        <rdfs:label>interval [0.45..0.95)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalUpperValue>
+        <rdfs:label>interval [0.05..0.5)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3719,9 +3719,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.3</hasIntervalUpperValue>
-        <rdfs:label>interval [0.7..1.3)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</hasIntervalUpperValue>
+        <rdfs:label>interval [1.1..2.0)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3745,9 +3745,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</hasIntervalUpperValue>
-        <rdfs:label>interval [0.6..0.8)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.35</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.35)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3758,9 +3758,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.1</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</hasIntervalUpperValue>
-        <rdfs:label>interval [0.1..0.3)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalUpperValue>
+        <rdfs:label>interval [0.03..0.4)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3771,9 +3771,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [1.0..Infinity)</rdfs:label>
+        <rdfs:label>interval [1.5..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3784,9 +3784,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.75</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.75..Infinity)</rdfs:label>
+        <rdfs:label>interval [0.5..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3797,9 +3797,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.96</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</hasIntervalUpperValue>
-        <rdfs:label>interval [0.96..1.0)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.03</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalUpperValue>
+        <rdfs:label>interval [1.03..1.5)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3810,9 +3810,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.97</hasIntervalUpperValue>
-        <rdfs:label>interval [0.9..0.97)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.97</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.03</hasIntervalUpperValue>
+        <rdfs:label>interval [0.97..1.03)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3836,9 +3836,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [1.0..Infinity)</rdfs:label>
+        <rdfs:label>interval [1.5..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3849,9 +3849,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.95..Infinity)</rdfs:label>
+        <rdfs:label>interval [0.9..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3862,9 +3862,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.3</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [1.3..Infinity)</rdfs:label>
+        <rdfs:label>interval [2.0..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3875,9 +3875,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.98</hasIntervalUpperValue>
-        <rdfs:label>interval [0.9..0.98)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalUpperValue>
+        <rdfs:label>interval [1.1..1.5)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3888,9 +3888,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalUpperValue>
-        <rdfs:label>interval [0.05..0.2)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalUpperValue>
+        <rdfs:label>interval [0.2..0.6)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3914,9 +3914,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.45</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.45..Infinity)</rdfs:label>
+        <rdfs:label>interval [0.5..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3928,8 +3928,8 @@
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
         <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.65</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.65)</rdfs:label>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.4)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3940,9 +3940,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.7..Infinity)</rdfs:label>
+        <rdfs:label>interval [2.0..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3953,9 +3953,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.7</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [1.7..Infinity)</rdfs:label>
+        <rdfs:label>interval [2.0..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3966,9 +3966,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalUpperValue>
-        <rdfs:label>interval [0.05..0.15)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.03)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3979,9 +3979,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.75</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalUpperValue>
-        <rdfs:label>interval [0.75..0.9)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.97</hasIntervalUpperValue>
+        <rdfs:label>interval [0.25..0.97)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3992,9 +3992,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.95..Infinity)</rdfs:label>
+        <rdfs:label>interval [0.5..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4005,9 +4005,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.75</hasIntervalUpperValue>
-        <rdfs:label>interval [0.25..0.75)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalUpperValue>
+        <rdfs:label>interval [0.05..0.5)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4018,9 +4018,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.88</hasIntervalUpperValue>
-        <rdfs:label>interval [0.7..0.88)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.97</hasIntervalUpperValue>
+        <rdfs:label>interval [0.25..0.97)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4032,8 +4032,8 @@
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
         <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.75</hasIntervalUpperValue>
-        <rdfs:label>interval [0.4..0.75)</rdfs:label>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalUpperValue>
+        <rdfs:label>interval [0.4..0.9)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4044,9 +4044,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalUpperValue>
-        <rdfs:label>interval [0.5..0.95)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.35</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalUpperValue>
+        <rdfs:label>interval [0.35..0.9)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4057,9 +4057,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.45</hasIntervalUpperValue>
-        <rdfs:label>interval [0.15..0.45)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.05)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4070,9 +4070,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalUpperValue>
-        <rdfs:label>interval [0.04..0.15)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.03)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4083,9 +4083,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalUpperValue>
-        <rdfs:label>interval [0.5..0.9)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalUpperValue>
+        <rdfs:label>interval [0.6..1.1)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4096,9 +4096,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.98</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.98..Infinity)</rdfs:label>
+        <rdfs:label>interval [1.5..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4109,9 +4109,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.3..Infinity)</rdfs:label>
+        <rdfs:label>interval [0.4..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4122,9 +4122,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.75</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.75..Infinity)</rdfs:label>
+        <rdfs:label>interval [0.5..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4135,9 +4135,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.07</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalUpperValue>
-        <rdfs:label>interval [0.07..0.25)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.05)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4161,9 +4161,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</hasIntervalUpperValue>
-        <rdfs:label>interval [0.4..0.7)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalUpperValue>
+        <rdfs:label>interval [0.6..1.1)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4174,9 +4174,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.75</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalUpperValue>
-        <rdfs:label>interval [0.75..0.9)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalUpperValue>
+        <rdfs:label>interval [0.9..1.1)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4187,9 +4187,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [1.0..Infinity)</rdfs:label>
+        <rdfs:label>interval [1.5..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4226,9 +4226,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.9..Infinity)</rdfs:label>
+        <rdfs:label>interval [0.4..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4239,9 +4239,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.75</hasIntervalUpperValue>
-        <rdfs:label>interval [0.25..0.75)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalUpperValue>
+        <rdfs:label>interval [0.05..0.5)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4252,9 +4252,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.35</hasIntervalUpperValue>
-        <rdfs:label>interval [0.15..0.35)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalUpperValue>
+        <rdfs:label>interval [0.03..0.4)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4265,9 +4265,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [1.0..Infinity)</rdfs:label>
+        <rdfs:label>interval [1.5..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4278,9 +4278,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalUpperValue>
-        <rdfs:label>interval [0.15..0.5)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalUpperValue>
+        <rdfs:label>interval [0.2..0.6)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4304,9 +4304,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.55</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</hasIntervalUpperValue>
-        <rdfs:label>interval [0.55..0.8)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalUpperValue>
+        <rdfs:label>interval [0.4..0.9)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4330,9 +4330,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.95..Infinity)</rdfs:label>
+        <rdfs:label>interval [0.9..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4343,9 +4343,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.65</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.85</hasIntervalUpperValue>
-        <rdfs:label>interval [0.65..0.85)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalUpperValue>
+        <rdfs:label>interval [0.4..0.9)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4356,9 +4356,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.1</hasIntervalUpperValue>
-        <rdfs:label>interval [0.03..0.1)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.03)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4369,9 +4369,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.84</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalUpperValue>
-        <rdfs:label>interval [0.84..0.95)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.97</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.03</hasIntervalUpperValue>
+        <rdfs:label>interval [0.97..1.03)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4382,9 +4382,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</hasIntervalUpperValue>
-        <rdfs:label>interval [0.4..0.7)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</hasIntervalUpperValue>
+        <rdfs:label>interval [1.1..2.0)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4396,8 +4396,8 @@
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
         <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.03)</rdfs:label>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.4)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4408,9 +4408,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.35</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.35..Infinity)</rdfs:label>
+        <rdfs:label>interval [0.4..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4434,9 +4434,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalUpperValue>
-        <rdfs:label>interval [0.4..0.95)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.35</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalUpperValue>
+        <rdfs:label>interval [0.35..0.9)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4460,9 +4460,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalUpperValue>
-        <rdfs:label>interval [0.3..0.9)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalUpperValue>
+        <rdfs:label>interval [0.03..0.4)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4474,8 +4474,8 @@
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
         <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.15)</rdfs:label>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.2)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4486,9 +4486,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.91</hasIntervalUpperValue>
-        <rdfs:label>interval [0.7..0.91)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.97</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.03</hasIntervalUpperValue>
+        <rdfs:label>interval [0.97..1.03)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4499,9 +4499,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</hasIntervalUpperValue>
-        <rdfs:label>interval [0.95..1.0)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalUpperValue>
+        <rdfs:label>interval [1.1..1.5)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4512,9 +4512,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.09</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</hasIntervalUpperValue>
-        <rdfs:label>interval [0.09..0.3)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.03)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4526,8 +4526,8 @@
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
         <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.6)</rdfs:label>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.25)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4538,9 +4538,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalUpperValue>
-        <rdfs:label>interval [0.05..0.25)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.05)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4565,8 +4565,8 @@
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
         <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.55</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.55)</rdfs:label>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.4)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4577,9 +4577,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.91</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</hasIntervalUpperValue>
-        <rdfs:label>interval [0.91..1.0)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.03</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalUpperValue>
+        <rdfs:label>interval [1.03..1.5)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4590,9 +4590,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.98</hasIntervalUpperValue>
-        <rdfs:label>interval [0.8..0.98)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.35</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalUpperValue>
+        <rdfs:label>interval [0.35..0.9)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4603,9 +4603,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.95..Infinity)</rdfs:label>
+        <rdfs:label>interval [1.5..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4616,9 +4616,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.45</hasIntervalUpperValue>
-        <rdfs:label>interval [0.15..0.45)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</hasIntervalUpperValue>
+        <rdfs:label>interval [0.05..0.5)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4629,9 +4629,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.1</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalUpperValue>
-        <rdfs:label>interval [0.1..0.4)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.35</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.35)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4656,8 +4656,8 @@
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
         <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.05)</rdfs:label>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.2)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4668,9 +4668,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalUpperValue>
-        <rdfs:label>interval [0.8..0.95)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalUpperValue>
+        <rdfs:label>interval [0.9..1.1)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4681,9 +4681,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [1.0..Infinity)</rdfs:label>
+        <rdfs:label>interval [1.5..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4694,9 +4694,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.98</hasIntervalLowerValue>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalLowerValue>
         <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.98..Infinity)</rdfs:label>
+        <rdfs:label>interval [0.9..Infinity)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4707,9 +4707,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.97</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</hasIntervalUpperValue>
-        <rdfs:label>interval [0.97..1.0)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.03</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalUpperValue>
+        <rdfs:label>interval [1.03..1.5)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4720,9 +4720,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.1</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalUpperValue>
-        <rdfs:label>interval [0.1..0.4)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalUpperValue>
+        <rdfs:label>interval [0.2..0.6)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4733,9 +4733,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalUpperValue>
-        <rdfs:label>interval [0.05..0.15)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.05)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4760,8 +4760,8 @@
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
         <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</hasIntervalUpperValue>
-        <rdfs:label>interval [0.25..0.7)</rdfs:label>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.97</hasIntervalUpperValue>
+        <rdfs:label>interval [0.25..0.97)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4772,9 +4772,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.85</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalUpperValue>
-        <rdfs:label>interval [0.85..0.95)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalUpperValue>
+        <rdfs:label>interval [0.9..1.1)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4786,8 +4786,8 @@
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
         <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.1</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.1)</rdfs:label>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.2)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4798,9 +4798,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.55</hasIntervalUpperValue>
-        <rdfs:label>interval [0.03..0.55)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalUpperValue>
+        <rdfs:label>interval [0.4..0.9)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4811,9 +4811,9 @@
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
         <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.7</hasIntervalUpperValue>
-        <rdfs:label>interval [0.9..1.7)</rdfs:label>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</hasIntervalUpperValue>
+        <rdfs:label>interval [1.1..2.0)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5249,7 +5249,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-4183339b-49ee-4087-9684-c556be29dc3f"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.1..0.3) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.03..0.4) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5260,7 +5260,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-26927ce5-dbc8-40cc-b728-9e7ec09e7946"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.5..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.4..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5271,7 +5271,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-81fadb19-79f8-4188-b3da-c9a2674c4411"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [1.0..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping [1.5..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5282,7 +5282,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-7751091f-d333-477b-997a-221bb8a66013"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.07..0.25) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.05) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5304,7 +5304,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-727a671b-ea3e-446a-9338-21d0a1d718b4"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.75..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.5..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5326,7 +5326,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-1b738e52-7aef-4275-9856-87578bb33637"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.95..0.98) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping [1.1..1.5) -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5337,7 +5337,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-a3fba8c7-75bc-4244-af9d-ac84d04612e0"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.4..0.7) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping [1.1..2.0) -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5357,9 +5357,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-13ce6d04-0900-409f-bab8-caf6f4f7c368">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-aea60a8d-3b17-460c-a412-4f77ab63987b"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.02) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5370,7 +5369,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-e2606664-84f9-4bf4-82a1-ba3044cb66f6"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [1.0..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping [1.5..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5381,7 +5380,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fa1844bb-c7d1-4542-9d25-6d0fcab92a46"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.85..0.95) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.9..1.1) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5390,9 +5389,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-18775ad3-6366-4f64-a0f7-5d767c64fa9f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fa9cdb73-1f9d-4c90-9488-f2611ba1abef"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.02..0.05) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5401,9 +5399,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-1a29c926-3715-4cdd-b6a2-350af903bd42">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-dd39fca4-34c7-4c99-9998-92be06ac4ec6"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.01) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5414,7 +5411,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-d52230ef-3699-4515-9c61-ca4ab80645de"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.95..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping [1.5..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5425,7 +5422,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-56e78aa2-ab5a-4364-893d-5fd4f2169057"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.0..0.65) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.4) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5436,7 +5433,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-7207f34f-ab52-40e1-b4c4-c58ee6add142"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.3..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.4..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5447,7 +5444,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c11514cc-dc32-4091-826d-8652d7049c78"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.09..0.3) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.03) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5458,7 +5455,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-cdffad25-3b11-4c27-9967-d4bdd8211015"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.8..0.98) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.35..0.9) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5480,7 +5477,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-98ab65cf-c19f-4003-af85-41526bdc34c0"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.03..0.1) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.03) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5502,7 +5499,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-4279b9e6-d93c-46e7-a80c-f2dae12eda78"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [1.0..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping [1.5..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5513,7 +5510,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-59694294-0386-4caf-bcd5-31fda6f571a8"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.95..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.5..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5522,9 +5519,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-2f83e03b-9233-44d7-bbf4-50c057ed3a35">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c5fb2b37-efc0-4314-93ff-430a46315cf3"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.02) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5535,7 +5531,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c5230da0-69ba-434f-8eae-7912176095cc"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.05..0.25) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.05) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5546,7 +5542,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-4e9597ce-f85d-4f21-966e-824df277b29a"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [1.3..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping [2.0..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5557,7 +5553,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c4e27dcb-6bd8-4102-9fde-a98740625613"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.0..0.6) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.25) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5568,7 +5564,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-1231947b-1604-404f-aaa4-b2b4b05c5920"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.95..1.0) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping [1.03..1.5) -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5579,7 +5575,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-7c1ebc9d-30f0-4180-852d-67049328db13"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.4..0.7) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.6..1.1) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5590,7 +5586,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-1f18dbee-66ff-44de-945c-b9145751df57"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.98..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping [1.5..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5599,9 +5595,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-41e848a4-cd0c-4f03-80c5-7b450a94ac0f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-68e8b2ae-da8d-4342-a39b-07487f6708ac"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.04..0.1) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5612,7 +5607,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-70aafab3-3b89-4a1b-ae8b-ee7aedf4d167"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.98..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping [1.5..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5623,7 +5618,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-6cbed39d-50e0-4bee-9976-b9e205a6b51b"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.04..0.15) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.03) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5634,7 +5629,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-55333c9a-ca5d-4d25-b684-ea6cc63d127c"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.45..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.5..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5643,9 +5638,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-45a0b11a-5c22-48c8-b992-a90f9572fc7c">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c07eb5af-65ce-47e1-a79f-699ea83b3732"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.01..0.03) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5654,9 +5648,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-4853853f-194b-4500-b012-f24c59468ef4">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-eae24479-edfa-4b48-badf-b39c1cad52d4"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.2) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5665,9 +5658,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-4b1ecec4-8c57-458c-9fc0-4aef8313df36">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-b1c4c8a3-8b50-495a-a442-61a344b10adf"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.05) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5676,9 +5668,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-4b392501-ad08-4863-957c-71e00b3a7e00">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-d8d60a91-66fc-4c18-97bc-5001745a9c93"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.2..0.6) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5689,7 +5680,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-b9ca0f9d-1247-44e5-9acd-1e9fbe5dc56e"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.0..0.15) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.2) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5700,7 +5691,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-a9e89dce-f51e-4027-a5e0-fab649619134"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.35..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.4..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5709,9 +5700,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-50aa7615-d25a-446d-b552-61831b65da2a">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-eba79572-f1e5-49fc-887c-86d07c8ab0b5"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.05..0.15) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5722,7 +5712,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-982b8bc4-d006-4727-8a80-91c133e218ef"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.65..0.85) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.4..0.9) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5731,9 +5721,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-55f7b0d3-74e0-4945-85bf-d4cc1eb4aa12">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fce00a08-f8f2-4993-a161-4b16c1ab9b7e"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.02..0.05) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5744,7 +5733,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-bc25b6e9-f7de-400a-bd29-c74887925ed9"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.95..1.0) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping [1.1..1.5) -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5755,7 +5744,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-57875e6d-b0b3-42fb-961a-4f1c6894dc91"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.05..0.15) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.03) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5764,9 +5753,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-594642ed-5c22-485a-aab8-cc75e3e1eca9">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-0343ca96-e8d2-44e0-b3dd-05b5e76cac9c"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.01..0.04) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5777,7 +5765,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-8e27221a-d4a4-4c2c-ab2e-62a737f65d79"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [1.0..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping [1.5..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5788,7 +5776,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-ffb23d99-0fac-43e9-8fa4-98484e47625c"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.9..1.7) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping [1.1..2.0) -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5799,7 +5787,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-6185d882-4c96-48b3-b5c1-b35b3406cebc"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.5..0.95) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.35..0.9) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5810,7 +5798,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-04c19cd4-e327-4319-b37a-038e650c202a"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.0..0.7) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.25) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5821,7 +5809,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-32062230-853d-497b-97e8-e78889208eb9"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.45..0.95) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.05..0.5) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5843,7 +5831,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-527b5bc9-f216-4823-9f79-01cd2db34423"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.05..0.2) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.2..0.6) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5854,7 +5842,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-5e758621-7850-4a46-ad28-0e5b66e7f062"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.7..0.88) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.25..0.97) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5863,9 +5851,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-68755422-7249-434d-9031-8b8ad79b73d1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-ce61df4e-5159-47c2-a883-d6d703c63cae"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.03) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5876,7 +5863,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fc21a072-9bc9-4c86-8398-d4ded2b5effb"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.0..0.1) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.2) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5887,7 +5874,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-36f54889-b0cf-48e0-bd7c-753a8927649f"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.7..1.3) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping [1.1..2.0) -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5898,7 +5885,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-38a45401-6f0f-48d2-b553-46516e57f4d9"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.6..0.8) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.35) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5909,7 +5896,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-6c8bc375-3141-481a-825b-bae507ed6780"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.15..0.45) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.05) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5920,7 +5907,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-90a16e11-5633-47d2-99eb-eef4d943066b"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.15..0.5) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.2..0.6) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5931,7 +5918,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-9daa5572-21b4-4d9c-a410-348a455f3170"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.84..0.95) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.97..1.03) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5942,7 +5929,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-6e4ca7d4-8483-4863-894e-5ee3a89b828d"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.5..0.9) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.6..1.1) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5953,7 +5940,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-19bcfba7-41df-4889-92d7-03a8e48c4568"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.85..0.95) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping [1.1..1.5) -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5964,7 +5951,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-2f8dcda4-0b3d-4d5d-8ab6-e94619df741d"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.2..0.4) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.6..1.1) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5975,7 +5962,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-ba7e96a3-c472-46a8-8c15-69cee4854d39"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.7..0.91) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.97..1.03) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5986,7 +5973,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-4b7a87e0-496f-4047-a939-be16c878769a"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.95..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.9..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5997,7 +5984,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-cbc4d13f-387a-4b2c-85a6-31e46bb741a8"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.0..0.55) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.4) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6017,9 +6004,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-90c87b6e-e07d-44c2-8130-0a951e647c81">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-7a61fd65-fa82-44ee-9377-54b637c72c4b"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.02) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6030,7 +6016,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-31287366-465b-4d03-9521-6ef5101dc4e9"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.55..0.85) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.9..1.1) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6041,7 +6027,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-5fc8fac1-bc08-4e35-ab85-cd60216a260d"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.4..0.75) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.4..0.9) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6052,7 +6038,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-45f38d9a-f765-43f0-89cc-76308075b189"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.96..1.0) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping [1.03..1.5) -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6063,7 +6049,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-8a1445fb-4702-425e-b0eb-d6b90137515a"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.9..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.4..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6072,9 +6058,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-988436c7-e2b1-4e0c-a0bf-68bdf54b2de1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fc839b23-44c1-49c2-a1e8-6e813bc329c5"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.02..0.05) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6083,9 +6068,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-9977282f-d994-4c5f-888c-5b9afb4cdb19">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c997c670-a16c-4f51-a25e-32dca0685dee"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.02) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6096,7 +6080,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-46378538-87f4-4385-bb81-b7ec092a47e5"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.9..0.97) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.97..1.03) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6107,7 +6091,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-dbf1eff8-4dc6-4cfc-9e8d-cfed9f0f4817"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.1..0.4) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.35) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6129,7 +6113,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-aa6fdf36-2cef-4f47-a18e-3255196f10e1"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.4..0.95) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.35..0.9) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6140,7 +6124,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-7f2b4607-060e-430e-939a-38e3a66dd759"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.75..0.9) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.9..1.1) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6151,7 +6135,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-506ff82f-541e-43cf-a70b-9feba20f61d2"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.9..0.98) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping [1.1..1.5) -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6173,7 +6157,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-a57484bf-1f62-4c1e-9795-39433b33e84a"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.0..0.03) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.4) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6195,7 +6179,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-5986b261-d20d-4abb-8b6a-47499879ce2e"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.25..0.75) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.05..0.5) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6206,7 +6190,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-0fd47ae4-cba9-4aae-b70f-73540e69d959"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.6..0.84) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.25..0.97) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6217,7 +6201,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-0d6447ca-9cf7-4209-b116-1b8fae93bebe"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.15..0.5) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.35) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6239,7 +6223,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-8a7919c1-63cd-47ac-8265-6d7bad74064c"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.25..0.75) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.05..0.5) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6250,7 +6234,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-96ea804e-f5e0-4e11-bc2d-ed2cc9161776"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.95..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.9..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6270,9 +6254,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-b641b989-a7f4-43cf-81c8-fcd7dc2f75a3">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-cf3c415f-2201-459e-a764-2abd61543c31"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.03..0.09) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6283,7 +6266,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-5830d8fd-f1d8-4fb5-b6a8-5ed22164c8b6"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.75..0.9) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.25..0.97) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6305,7 +6288,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-30e69792-9350-4a10-a3b7-881dd9e2f472"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.0..0.75) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.25) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6327,7 +6310,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-8c7fccd9-8bf0-459a-a5d3-e7f73aa98ba8"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.15..0.35) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.03..0.4) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6338,7 +6321,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-e53d3ce0-e4da-4bac-902f-44ac1a17c4dd"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.97..1.0) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping [1.03..1.5) -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6349,7 +6332,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-57803898-f612-4fe5-b5c2-7fbe62828abb"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [1.7..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping [2.0..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6360,7 +6343,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-f33da981-7f54-48a9-95dd-d169d97251f8"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.05..0.15) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.05) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6369,9 +6352,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-cf4f1c97-f359-41fe-b81a-c8e8bce9bb5f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-8532f7cf-4cae-48f3-811e-06a37cc17705"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.02..0.07) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6382,7 +6364,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-941954cb-8fca-4e78-b6b7-8c4be441e6c0"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.55..0.8) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.4..0.9) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6393,7 +6375,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-cc43f9c6-a6ef-43bb-9086-34fa54077e35"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.91..1.0) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping [1.03..1.5) -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6404,7 +6386,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-e058a177-0e53-4b6f-a23c-ab8e074fa71e"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.8..0.95) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.9..1.1) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6415,7 +6397,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-e51bd859-851e-4e09-8ce3-c99408beecaa"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.98..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.9..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6426,7 +6408,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-f85e0641-9025-4eb6-b216-09a233ebab56"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.25..0.7) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.25..0.97) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6437,7 +6419,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-d725d6bf-c3e3-4319-87e1-aec958a2e4ea"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.15..0.45) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.05..0.5) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6446,9 +6428,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-e3499418-590e-4e2f-961d-c08249c9817c">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-e90819b5-72ae-4fb3-966c-56003ea32796"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.04) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6459,7 +6440,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-dfb21020-a3f3-4322-8cea-c7e4a99df3fe"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.0..0.05) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.0..0.2) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6470,7 +6451,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-440ef508-13ae-464e-89d4-e3db7781905a"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.75..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.5..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6481,7 +6462,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-27b9aa3b-a507-4d69-b558-9015c583bb7b"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.15..0.5) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.03..0.4) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6492,7 +6473,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fe318a22-3639-4c42-be83-5317e5f0397e"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.03..0.55) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.4..0.9) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6503,7 +6484,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-4b0934f7-1ab9-4529-80cb-7c43586b4272"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [1.0..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping [1.5..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6514,7 +6495,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-b7410b7b-1f28-424f-9881-3336f9f94390"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.3..0.9) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.03..0.4) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6523,9 +6504,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-f0d722ec-b28d-4c37-9c37-324847b10d26">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c8d8e3fe-2902-488f-8a45-650345748f3d"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.04) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6558,7 +6538,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-e5423088-9837-4114-ab70-9dd0bcd15c06"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.1..0.4) -&gt; 2 (Insufficient)</rdfs:label>
+        <rdfs:label>mapping [0.2..0.6) -&gt; 2 (Insufficient)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6569,7 +6549,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-574da3e6-f440-4146-9e8c-8363f3890cea"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.7..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping [2.0..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6578,9 +6558,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-fd75d338-e2e8-4fe1-a8dd-e9873fffdf0f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-654b9c2c-c89a-451f-b3b1-d971c640515a"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.04..0.15) -&gt; 4 (Acceptable)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 4 (Acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6589,9 +6568,8 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-fde8a2da-66f0-48c4-bd83-6a4d1f771657">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-1444fab3-28af-4efb-b214-fab21f80e0cd"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.01) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+        <rdfs:label>mapping null -&gt; 5 (Exceeds the requirements)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6602,7 +6580,7 @@
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-15413506-2137-4091-9d94-d8b3724da5ae"/>
         <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.88..0.96) -&gt; 3 (Minimally acceptable)</rdfs:label>
+        <rdfs:label>mapping [0.97..1.03) -&gt; 3 (Minimally acceptable)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6701,398 +6679,6 @@
             <rdf:Description rdf:about="https://purl.org/oquo#SystematicNamingIssue"/>
         </owl:members>
     </rdf:Description>
-
-
-    <!-- https://purl.org/oquo#interval-e90819b5-72ae-4fb3-966c-56003ea32796 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-e90819b5-72ae-4fb3-966c-56003ea32796">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.04)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-654b9c2c-c89a-451f-b3b1-d971c640515a -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-654b9c2c-c89a-451f-b3b1-d971c640515a">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalUpperValue>
-        <rdfs:label>interval [0.04..0.15)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-ce61df4e-5159-47c2-a883-d6d703c63cae -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-ce61df4e-5159-47c2-a883-d6d703c63cae">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.03)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-cf3c415f-2201-459e-a764-2abd61543c31 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-cf3c415f-2201-459e-a764-2abd61543c31">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.09</hasIntervalUpperValue>
-        <rdfs:label>interval [0.03..0.09)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-eae24479-edfa-4b48-badf-b39c1cad52d4 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-eae24479-edfa-4b48-badf-b39c1cad52d4">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.2)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-d8d60a91-66fc-4c18-97bc-5001745a9c93 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-d8d60a91-66fc-4c18-97bc-5001745a9c93">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalUpperValue>
-        <rdfs:label>interval [0.2..0.6)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-fa9cdb73-1f9d-4c90-9488-f2611ba1abef -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fa9cdb73-1f9d-4c90-9488-f2611ba1abef">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
-        <rdfs:label>interval [0.02..0.05)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-c997c670-a16c-4f51-a25e-32dca0685dee -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c997c670-a16c-4f51-a25e-32dca0685dee">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.02)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-dd39fca4-34c7-4c99-9998-92be06ac4ec6 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-dd39fca4-34c7-4c99-9998-92be06ac4ec6">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.01)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-c07eb5af-65ce-47e1-a79f-699ea83b3732 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c07eb5af-65ce-47e1-a79f-699ea83b3732">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalUpperValue>
-        <rdfs:label>interval [0.01..0.03)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-68e8b2ae-da8d-4342-a39b-07487f6708ac -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-68e8b2ae-da8d-4342-a39b-07487f6708ac">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.1</hasIntervalUpperValue>
-        <rdfs:label>interval [0.04..0.1)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-c8d8e3fe-2902-488f-8a45-650345748f3d -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c8d8e3fe-2902-488f-8a45-650345748f3d">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.04)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-c5fb2b37-efc0-4314-93ff-430a46315cf3 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c5fb2b37-efc0-4314-93ff-430a46315cf3">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.02)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-8532f7cf-4cae-48f3-811e-06a37cc17705 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-8532f7cf-4cae-48f3-811e-06a37cc17705">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.07</hasIntervalUpperValue>
-        <rdfs:label>interval [0.02..0.07)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-fce00a08-f8f2-4993-a161-4b16c1ab9b7e -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fce00a08-f8f2-4993-a161-4b16c1ab9b7e">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
-        <rdfs:label>interval [0.02..0.05)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-7a61fd65-fa82-44ee-9377-54b637c72c4b -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-7a61fd65-fa82-44ee-9377-54b637c72c4b">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.02)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-aea60a8d-3b17-460c-a412-4f77ab63987b -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-aea60a8d-3b17-460c-a412-4f77ab63987b">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.02)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-fc839b23-44c1-49c2-a1e8-6e813bc329c5 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fc839b23-44c1-49c2-a1e8-6e813bc329c5">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
-        <rdfs:label>interval [0.02..0.05)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-0343ca96-e8d2-44e0-b3dd-05b5e76cac9c -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-0343ca96-e8d2-44e0-b3dd-05b5e76cac9c">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalUpperValue>
-        <rdfs:label>interval [0.01..0.04)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-1444fab3-28af-4efb-b214-fab21f80e0cd -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-1444fab3-28af-4efb-b214-fab21f80e0cd">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.01)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-b1c4c8a3-8b50-495a-a442-61a344b10adf -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-b1c4c8a3-8b50-495a-a442-61a344b10adf">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.05)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-eba79572-f1e5-49fc-887c-86d07c8ab0b5 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-eba79572-f1e5-49fc-887c-86d07c8ab0b5">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalUpperValue>
-        <rdfs:label>interval [0.05..0.15)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/oquo#scaleConversion-1482099b-08c4-4911-8737-b23f5d2547d0 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-1482099b-08c4-4911-8737-b23f5d2547d0">
-        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
-        <hasInputScale rdf:resource="https://purl.org/oquo#DataPropertiesWithNoSynonymMetricScale"/>
-        <hasOutputScale rdf:resource="https://purl.org/oquo#OquareFiveCategoriesScale"/>
-        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-bec505f7-f19d-4dad-84a1-b3e53b616ee6"/>
-        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-6391d745-d288-418b-aac7-d367bffb2e52"/>
-        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-c9868e7d-9d8d-470b-9262-2d31ce365967"/>
-        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-b67c940f-9afc-4795-86cd-1b58a45de176"/>
-        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-6ea3befe-7d52-4b9a-94c9-ba484b77474a"/>
-        <rdfs:comment>The definition of the conversion between the scales &lt;https://purl.org/oquo#DataPropertiesWithNoSynonymMetricScale&gt; and &lt;https://purl.org/oquo#OquareFiveCategoriesScale&gt;.</rdfs:comment>
-        <rdfs:label>data properties with no synonym metric scale to oquare five categories scale conversion</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-472d01f3-9903-444b-8b50-2df16d6caee3 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-472d01f3-9903-444b-8b50-2df16d6caee3">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.95..Infinity)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-c7fb14fb-d278-41c2-828f-2647be3cf745 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c7fb14fb-d278-41c2-828f-2647be3cf745">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.65</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalUpperValue>
-        <rdfs:label>interval [0.65..0.95)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-bf40e3e8-8b31-4c28-8076-88d4c14c8e3b -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-bf40e3e8-8b31-4c28-8076-88d4c14c8e3b">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.65</hasIntervalUpperValue>
-        <rdfs:label>interval [0.2..0.65)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-5b6f0ddb-8898-4c1c-baf0-30d62f04e7eb -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-5b6f0ddb-8898-4c1c-baf0-30d62f04e7eb">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalUpperValue>
-        <rdfs:label>interval [0.05..0.2)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-fb426b8e-e439-43ad-87da-c4e56bc49661 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fb426b8e-e439-43ad-87da-c4e56bc49661">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.05)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#scalePointMapping-bec505f7-f19d-4dad-84a1-b3e53b616ee6 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-bec505f7-f19d-4dad-84a1-b3e53b616ee6">
-        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-472d01f3-9903-444b-8b50-2df16d6caee3"/>
-        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.95..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#scalePointMapping-6391d745-d288-418b-aac7-d367bffb2e52 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-6391d745-d288-418b-aac7-d367bffb2e52">
-        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c7fb14fb-d278-41c2-828f-2647be3cf745"/>
-        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.65..0.95) -&gt; 2 (Insufficient)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#scalePointMapping-c9868e7d-9d8d-470b-9262-2d31ce365967 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-c9868e7d-9d8d-470b-9262-2d31ce365967">
-        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-bf40e3e8-8b31-4c28-8076-88d4c14c8e3b"/>
-        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.2..0.65) -&gt; 3 (Minimally acceptable)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#scalePointMapping-b67c940f-9afc-4795-86cd-1b58a45de176 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-b67c940f-9afc-4795-86cd-1b58a45de176">
-        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-5b6f0ddb-8898-4c1c-baf0-30d62f04e7eb"/>
-        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.05..0.2) -&gt; 4 (Acceptable)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#scalePointMapping-6ea3befe-7d52-4b9a-94c9-ba484b77474a -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-6ea3befe-7d52-4b9a-94c9-ba484b77474a">
-        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fb426b8e-e439-43ad-87da-c4e56bc49661"/>
-        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.05) -&gt; 5 (Exceeds the requirements)</rdfs:label>
-    </owl:NamedIndividual>
-    
 </rdf:RDF>
 
 
