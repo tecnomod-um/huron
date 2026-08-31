@@ -29,10 +29,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://purl.org/net/QualityModel#BaseMeasure -->
+
 
     <owl:Class rdf:about="http://purl.org/net/QualityModel#BaseMeasure"/>
     
@@ -40,11 +42,13 @@
 
     <!-- http://purl.org/net/QualityModel#DerivedMeasure -->
 
+
     <owl:Class rdf:about="http://purl.org/net/QualityModel#DerivedMeasure"/>
     
 
 
     <!-- http://www.w3.org/2002/07/owl#AnnotationProperty -->
+
 
     <owl:Class rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
     
@@ -52,11 +56,13 @@
 
     <!-- http://www.w3.org/2002/07/owl#Class -->
 
+
     <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class"/>
     
 
 
     <!-- http://www.w3.org/2002/07/owl#DatatypeProperty -->
+
 
     <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     
@@ -64,17 +70,20 @@
 
     <!-- http://www.w3.org/2002/07/owl#ObjectProperty -->
 
+
     <owl:Class rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     
 
 
     <!-- http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale -->
 
+
     <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
     
 
 
     <!-- https://purl.org/oquo#AnnotationPropertiesWithNoDescriptionMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#AnnotationPropertiesWithNoDescriptionMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -162,6 +171,7 @@
 
     <!-- https://purl.org/oquo#AnnotationPropertiesWithNoNameMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#AnnotationPropertiesWithNoNameMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -240,6 +250,7 @@
 
 
     <!-- https://purl.org/oquo#AnnotationPropertiesWithNoSynonymMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#AnnotationPropertiesWithNoSynonymMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -320,6 +331,7 @@
 
     <!-- https://purl.org/oquo#AnnotationPropertyWithNoDescriptionIssue -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#AnnotationPropertyWithNoDescriptionIssue">
         <owl:equivalentClass>
             <owl:Class>
@@ -341,6 +353,7 @@
 
 
     <!-- https://purl.org/oquo#AnnotationPropertyWithNoNameIssue -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#AnnotationPropertyWithNoNameIssue">
         <owl:equivalentClass>
@@ -364,6 +377,7 @@
 
     <!-- https://purl.org/oquo#AnnotationPropertyWithNoSynonymsIssue -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#AnnotationPropertyWithNoSynonymsIssue">
         <owl:equivalentClass>
             <owl:Class>
@@ -386,17 +400,20 @@
 
     <!-- https://purl.org/oquo#CardinalToOrdinalScaleConversion -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
     
 
 
     <!-- https://purl.org/oquo#CardinalToOrdinalScalePointMapping -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
     
 
 
     <!-- https://purl.org/oquo#ClassWithNoDescriptionIssue -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#ClassWithNoDescriptionIssue">
         <owl:equivalentClass>
@@ -420,6 +437,7 @@
 
     <!-- https://purl.org/oquo#ClassWithNoNameIssue -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#ClassWithNoNameIssue">
         <owl:equivalentClass>
             <owl:Class>
@@ -442,6 +460,7 @@
 
     <!-- https://purl.org/oquo#ClassWithNoSynonymsIssue -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#ClassWithNoSynonymsIssue">
         <owl:equivalentClass>
             <owl:Class>
@@ -463,6 +482,7 @@
 
 
     <!-- https://purl.org/oquo#ClassesWithNoDescriptionMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#ClassesWithNoDescriptionMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -550,6 +570,7 @@
 
     <!-- https://purl.org/oquo#ClassesWithNoNameMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#ClassesWithNoNameMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -628,6 +649,7 @@
 
 
     <!-- https://purl.org/oquo#ClassesWithNoSynonymMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#ClassesWithNoSynonymMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -708,11 +730,13 @@
 
     <!-- https://purl.org/oquo#ControlledVocabularyCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#ControlledVocabularyCharacteristic"/>
     
 
 
     <!-- https://purl.org/oquo#DataPropertiesWithNoDescriptionMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#DataPropertiesWithNoDescriptionMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -800,6 +824,7 @@
 
     <!-- https://purl.org/oquo#DataPropertiesWithNoNameMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#DataPropertiesWithNoNameMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -878,6 +903,7 @@
 
 
     <!-- https://purl.org/oquo#DataPropertiesWithNoSynonymMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#DataPropertiesWithNoSynonymMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -958,6 +984,7 @@
 
     <!-- https://purl.org/oquo#DataPropertyWithNoDescriptionIssue -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#DataPropertyWithNoDescriptionIssue">
         <owl:equivalentClass>
             <owl:Class>
@@ -979,6 +1006,7 @@
 
 
     <!-- https://purl.org/oquo#DataPropertyWithNoNameIssue -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#DataPropertyWithNoNameIssue">
         <owl:equivalentClass>
@@ -1002,6 +1030,7 @@
 
     <!-- https://purl.org/oquo#DataPropertyWithNoSynonymsIssue -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#DataPropertyWithNoSynonymsIssue">
         <owl:equivalentClass>
             <owl:Class>
@@ -1023,6 +1052,7 @@
 
 
     <!-- https://purl.org/oquo#DescriptionsPerAnnotationPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#DescriptionsPerAnnotationPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1111,6 +1141,7 @@
 
     <!-- https://purl.org/oquo#DescriptionsPerClassMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#DescriptionsPerClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -1197,6 +1228,7 @@
 
 
     <!-- https://purl.org/oquo#DescriptionsPerDataPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#DescriptionsPerDataPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1285,6 +1317,7 @@
 
     <!-- https://purl.org/oquo#DescriptionsPerObjectPropertyMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#DescriptionsPerObjectPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -1372,6 +1405,7 @@
 
     <!-- https://purl.org/oquo#DescriptionsPerPropertyMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#DescriptionsPerPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -1458,17 +1492,20 @@
 
     <!-- https://purl.org/oquo#EaseOfUseCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#EaseOfUseCharacteristic"/>
     
 
 
     <!-- https://purl.org/oquo#EfficiencyInUseCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
     
 
 
     <!-- https://purl.org/oquo#EntityWithNoDescriptionIssue -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#EntityWithNoDescriptionIssue">
         <rdfs:subClassOf rdf:resource="https://purl.org/oquo#IssueByNonConformity"/>
@@ -1481,6 +1518,7 @@
 
     <!-- https://purl.org/oquo#EntityWithNoNameIssue -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#EntityWithNoNameIssue">
         <rdfs:subClassOf rdf:resource="https://purl.org/oquo#IssueByNonConformity"/>
         <rdfs:label>entity with no name issue</rdfs:label>
@@ -1491,6 +1529,7 @@
 
 
     <!-- https://purl.org/oquo#EntityWithNoSynonymsIssue -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#EntityWithNoSynonymsIssue">
         <rdfs:subClassOf rdf:resource="https://purl.org/oquo#IssueByNonConformity"/>
@@ -1503,11 +1542,13 @@
 
     <!-- https://purl.org/oquo#HelpfulnessCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#HelpfulnessCharacteristic"/>
     
 
 
     <!-- https://purl.org/oquo#IndexingAndLinkingCharacteristic -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
     
@@ -1515,11 +1556,13 @@
 
     <!-- https://purl.org/oquo#Interval -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#Interval"/>
     
 
 
     <!-- https://purl.org/oquo#KnowledgeReuseCharacteristic -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
     
@@ -1527,11 +1570,13 @@
 
     <!-- https://purl.org/oquo#LearnabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#LearnabilityCharacteristic"/>
     
 
 
     <!-- https://purl.org/oquo#LexicalRegularitiesPerClassMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#LexicalRegularitiesPerClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1592,6 +1637,7 @@
 
     <!-- https://purl.org/oquo#LexicalRegularityClassPercentageMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#LexicalRegularityClassPercentageMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -1651,6 +1697,7 @@
 
     <!-- https://purl.org/oquo#LexicallySuggestLogicallyDefineIssue -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#LexicallySuggestLogicallyDefineIssue">
         <rdfs:subClassOf rdf:resource="https://purl.org/oquo#IssueByNonConformity"/>
         <rdfs:label>lexically suggest logically define issue</rdfs:label>
@@ -1661,6 +1708,7 @@
 
 
     <!-- https://purl.org/oquo#LexicallySuggestLogicallyDefineMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#LexicallySuggestLogicallyDefineMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1720,6 +1768,7 @@
 
 
     <!-- https://purl.org/oquo#NamesPerAnnotationPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#NamesPerAnnotationPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1801,6 +1850,7 @@
 
     <!-- https://purl.org/oquo#NamesPerClassMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#NamesPerClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -1880,6 +1930,7 @@
 
 
     <!-- https://purl.org/oquo#NamesPerDataPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#NamesPerDataPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1961,6 +2012,7 @@
 
     <!-- https://purl.org/oquo#NamesPerObjectPropertyMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#NamesPerObjectPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -2040,6 +2092,7 @@
 
 
     <!-- https://purl.org/oquo#NamesPerPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#NamesPerPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2127,6 +2180,7 @@
 
     <!-- https://purl.org/oquo#NumberOfClassesMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#NumberOfClassesMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#BaseMeasure"/>
         <rdfs:subClassOf>
@@ -2159,6 +2213,7 @@
 
 
     <!-- https://purl.org/oquo#NumberOfLexicalRegularitiesMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#NumberOfLexicalRegularitiesMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2212,6 +2267,7 @@
 
     <!-- https://purl.org/oquo#NumberOfLexicalRegularityClassesMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#NumberOfLexicalRegularityClassesMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -2263,6 +2319,7 @@
 
 
     <!-- https://purl.org/oquo#ObjectPropertiesWithNoDescriptionMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#ObjectPropertiesWithNoDescriptionMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2350,6 +2407,7 @@
 
     <!-- https://purl.org/oquo#ObjectPropertiesWithNoNameMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#ObjectPropertiesWithNoNameMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -2428,6 +2486,7 @@
 
 
     <!-- https://purl.org/oquo#ObjectPropertiesWithNoSynonymMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#ObjectPropertiesWithNoSynonymMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2508,6 +2567,7 @@
 
     <!-- https://purl.org/oquo#ObjectPropertyWithNoDescriptionIssue -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#ObjectPropertyWithNoDescriptionIssue">
         <owl:equivalentClass>
             <owl:Class>
@@ -2529,6 +2589,7 @@
 
 
     <!-- https://purl.org/oquo#ObjectPropertyWithNoNameIssue -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#ObjectPropertyWithNoNameIssue">
         <owl:equivalentClass>
@@ -2552,6 +2613,7 @@
 
     <!-- https://purl.org/oquo#ObjectPropertyWithNoSynonymsIssue -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#ObjectPropertyWithNoSynonymsIssue">
         <owl:equivalentClass>
             <owl:Class>
@@ -2574,17 +2636,20 @@
 
     <!-- https://purl.org/oquo#RawScale -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#RawScale"/>
     
 
 
     <!-- https://purl.org/oquo#StructuralAccuracyCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#StructuralAccuracyCharacteristic"/>
     
 
 
     <!-- https://purl.org/oquo#SynonymsPerAnnotationPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#SynonymsPerAnnotationPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2666,6 +2731,7 @@
 
     <!-- https://purl.org/oquo#SynonymsPerClassMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#SynonymsPerClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -2745,6 +2811,7 @@
 
 
     <!-- https://purl.org/oquo#SynonymsPerDataPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#SynonymsPerDataPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2826,6 +2893,7 @@
 
     <!-- https://purl.org/oquo#SynonymsPerObjectPropertyMetric -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#SynonymsPerObjectPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -2905,6 +2973,7 @@
 
 
     <!-- https://purl.org/oquo#SynonymsPerPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#SynonymsPerPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2986,6 +3055,7 @@
 
     <!-- https://purl.org/oquo#SystematicNamingIssue -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#SystematicNamingIssue">
         <rdfs:subClassOf rdf:resource="https://purl.org/oquo#IssueByNonConformity"/>
         <rdfs:label>systematic naming issue</rdfs:label>
@@ -2996,6 +3066,7 @@
 
 
     <!-- https://purl.org/oquo#SystematicNamingMetric -->
+
 
     <owl:Class rdf:about="https://purl.org/oquo#SystematicNamingMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -3056,6 +3127,7 @@
 
     <!-- https://purl.org/oquo#TextAnalysisCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.org/oquo#TextAnalysisCharacteristic"/>
     
 
@@ -3068,10 +3140,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- https://purl.org/oquo#AnnotationPropertiesWithNoDescriptionMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#AnnotationPropertiesWithNoDescriptionMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3085,6 +3159,7 @@
 
     <!-- https://purl.org/oquo#AnnotationPropertiesWithNoNameMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#AnnotationPropertiesWithNoNameMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3096,6 +3171,7 @@
 
 
     <!-- https://purl.org/oquo#AnnotationPropertiesWithNoSynonymMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#AnnotationPropertiesWithNoSynonymMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3109,6 +3185,7 @@
 
     <!-- https://purl.org/oquo#ClassesWithNoDescriptionMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#ClassesWithNoDescriptionMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3120,6 +3197,7 @@
 
 
     <!-- https://purl.org/oquo#ClassesWithNoNameMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#ClassesWithNoNameMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3133,6 +3211,7 @@
 
     <!-- https://purl.org/oquo#ClassesWithNoSynonymMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#ClassesWithNoSynonymMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3144,6 +3223,7 @@
 
 
     <!-- https://purl.org/oquo#DataPropertiesWithNoDescriptionMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#DataPropertiesWithNoDescriptionMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3157,6 +3237,7 @@
 
     <!-- https://purl.org/oquo#DataPropertiesWithNoNameMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#DataPropertiesWithNoNameMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3168,6 +3249,7 @@
 
 
     <!-- https://purl.org/oquo#DataPropertiesWithNoSynonymMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#DataPropertiesWithNoSynonymMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3181,6 +3263,7 @@
 
     <!-- https://purl.org/oquo#DescriptionsPerAnnotationPropertyMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#DescriptionsPerAnnotationPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3192,6 +3275,7 @@
 
 
     <!-- https://purl.org/oquo#DescriptionsPerClassMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#DescriptionsPerClassMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3205,6 +3289,7 @@
 
     <!-- https://purl.org/oquo#DescriptionsPerDataPropertyMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#DescriptionsPerDataPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3216,6 +3301,7 @@
 
 
     <!-- https://purl.org/oquo#DescriptionsPerObjectPropertyMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#DescriptionsPerObjectPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3229,6 +3315,7 @@
 
     <!-- https://purl.org/oquo#DescriptionsPerPropertyMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#DescriptionsPerPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3240,6 +3327,7 @@
 
 
     <!-- https://purl.org/oquo#LexicalRegularitiesPerClassMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#LexicalRegularitiesPerClassMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3253,6 +3341,7 @@
 
     <!-- https://purl.org/oquo#LexicalRegularityClassPercentageMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#LexicalRegularityClassPercentageMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3264,6 +3353,7 @@
 
 
     <!-- https://purl.org/oquo#LexicallySuggestLogicallyDefineMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#LexicallySuggestLogicallyDefineMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3277,6 +3367,7 @@
 
     <!-- https://purl.org/oquo#NamesPerAnnotationPropertyMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#NamesPerAnnotationPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3288,6 +3379,7 @@
 
 
     <!-- https://purl.org/oquo#NamesPerClassMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#NamesPerClassMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3301,6 +3393,7 @@
 
     <!-- https://purl.org/oquo#NamesPerDataPropertyMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#NamesPerDataPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3312,6 +3405,7 @@
 
 
     <!-- https://purl.org/oquo#NamesPerObjectPropertyMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#NamesPerObjectPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3325,6 +3419,7 @@
 
     <!-- https://purl.org/oquo#NamesPerPropertyMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#NamesPerPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3336,6 +3431,7 @@
 
 
     <!-- https://purl.org/oquo#NumberOfClassesMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#NumberOfClassesMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3349,6 +3445,7 @@
 
     <!-- https://purl.org/oquo#NumberOfLexicalRegularitiesMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#NumberOfLexicalRegularitiesMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3360,6 +3457,7 @@
 
 
     <!-- https://purl.org/oquo#NumberOfLexicalRegularityClassesMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#NumberOfLexicalRegularityClassesMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3373,6 +3471,7 @@
 
     <!-- https://purl.org/oquo#ObjectPropertiesWithNoDescriptionMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#ObjectPropertiesWithNoDescriptionMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3384,6 +3483,7 @@
 
 
     <!-- https://purl.org/oquo#ObjectPropertiesWithNoNameMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#ObjectPropertiesWithNoNameMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3397,6 +3497,7 @@
 
     <!-- https://purl.org/oquo#ObjectPropertiesWithNoSynonymMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#ObjectPropertiesWithNoSynonymMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3408,6 +3509,7 @@
 
 
     <!-- https://purl.org/oquo#SynonymsPerAnnotationPropertyMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#SynonymsPerAnnotationPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3421,6 +3523,7 @@
 
     <!-- https://purl.org/oquo#SynonymsPerClassMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#SynonymsPerClassMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3432,6 +3535,7 @@
 
 
     <!-- https://purl.org/oquo#SynonymsPerDataPropertyMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#SynonymsPerDataPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3445,6 +3549,7 @@
 
     <!-- https://purl.org/oquo#SynonymsPerObjectPropertyMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#SynonymsPerObjectPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3456,6 +3561,7 @@
 
 
     <!-- https://purl.org/oquo#SynonymsPerPropertyMetricScale -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#SynonymsPerPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
@@ -3469,6 +3575,7 @@
 
     <!-- https://purl.org/oquo#SystematicNamingMetricScale -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#SystematicNamingMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.org/oquo#RawScale"/>
@@ -3479,7 +3586,36 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-019a0376-db87-492f-b406-5703c8a82118 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-019a0376-db87-492f-b406-5703c8a82118">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
+        <rdfs:label>interval [1.5..Infinity)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-0343ca96-e8d2-44e0-b3dd-05b5e76cac9c -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-0343ca96-e8d2-44e0-b3dd-05b5e76cac9c">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalUpperValue>
+        <rdfs:label>interval [0.01..0.04)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-04c19cd4-e327-4319-b37a-038e650c202a -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-04c19cd4-e327-4319-b37a-038e650c202a">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3494,6 +3630,7 @@
 
     <!-- https://purl.org/oquo#interval-0d6447ca-9cf7-4209-b116-1b8fae93bebe -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-0d6447ca-9cf7-4209-b116-1b8fae93bebe">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3506,6 +3643,7 @@
 
 
     <!-- https://purl.org/oquo#interval-0fd47ae4-cba9-4aae-b70f-73540e69d959 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-0fd47ae4-cba9-4aae-b70f-73540e69d959">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3520,6 +3658,7 @@
 
     <!-- https://purl.org/oquo#interval-1231947b-1604-404f-aaa4-b2b4b05c5920 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-1231947b-1604-404f-aaa4-b2b4b05c5920">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3531,7 +3670,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-1444fab3-28af-4efb-b214-fab21f80e0cd -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-1444fab3-28af-4efb-b214-fab21f80e0cd">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.01)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-15413506-2137-4091-9d94-d8b3724da5ae -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-15413506-2137-4091-9d94-d8b3724da5ae">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3546,6 +3700,7 @@
 
     <!-- https://purl.org/oquo#interval-19bcfba7-41df-4889-92d7-03a8e48c4568 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-19bcfba7-41df-4889-92d7-03a8e48c4568">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3558,6 +3713,7 @@
 
 
     <!-- https://purl.org/oquo#interval-1b738e52-7aef-4275-9856-87578bb33637 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-1b738e52-7aef-4275-9856-87578bb33637">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3572,6 +3728,7 @@
 
     <!-- https://purl.org/oquo#interval-1f18dbee-66ff-44de-945c-b9145751df57 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-1f18dbee-66ff-44de-945c-b9145751df57">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3584,6 +3741,7 @@
 
 
     <!-- https://purl.org/oquo#interval-22432f0a-e9ab-4c63-9017-06ebf51e15ca -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-22432f0a-e9ab-4c63-9017-06ebf51e15ca">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3598,6 +3756,7 @@
 
     <!-- https://purl.org/oquo#interval-24111049-0d2a-4fbe-b1cc-723bd6c759aa -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-24111049-0d2a-4fbe-b1cc-723bd6c759aa">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3610,6 +3769,7 @@
 
 
     <!-- https://purl.org/oquo#interval-26927ce5-dbc8-40cc-b728-9e7ec09e7946 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-26927ce5-dbc8-40cc-b728-9e7ec09e7946">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3624,6 +3784,7 @@
 
     <!-- https://purl.org/oquo#interval-27b9aa3b-a507-4d69-b558-9015c583bb7b -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-27b9aa3b-a507-4d69-b558-9015c583bb7b">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3636,6 +3797,7 @@
 
 
     <!-- https://purl.org/oquo#interval-2e2a81f9-16b5-43f1-8247-81bbb370c335 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-2e2a81f9-16b5-43f1-8247-81bbb370c335">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3650,6 +3812,7 @@
 
     <!-- https://purl.org/oquo#interval-2f8dcda4-0b3d-4d5d-8ab6-e94619df741d -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-2f8dcda4-0b3d-4d5d-8ab6-e94619df741d">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3662,6 +3825,7 @@
 
 
     <!-- https://purl.org/oquo#interval-30e69792-9350-4a10-a3b7-881dd9e2f472 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-30e69792-9350-4a10-a3b7-881dd9e2f472">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3676,6 +3840,7 @@
 
     <!-- https://purl.org/oquo#interval-31287366-465b-4d03-9521-6ef5101dc4e9 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-31287366-465b-4d03-9521-6ef5101dc4e9">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3688,6 +3853,7 @@
 
 
     <!-- https://purl.org/oquo#interval-316738a0-0a0b-4b14-a1bd-11ad67fe6531 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-316738a0-0a0b-4b14-a1bd-11ad67fe6531">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3702,6 +3868,7 @@
 
     <!-- https://purl.org/oquo#interval-32062230-853d-497b-97e8-e78889208eb9 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-32062230-853d-497b-97e8-e78889208eb9">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3714,6 +3881,7 @@
 
 
     <!-- https://purl.org/oquo#interval-36f54889-b0cf-48e0-bd7c-753a8927649f -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-36f54889-b0cf-48e0-bd7c-753a8927649f">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3728,6 +3896,7 @@
 
     <!-- https://purl.org/oquo#interval-37a3c5e7-db95-41c1-99a3-d6829092a14f -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-37a3c5e7-db95-41c1-99a3-d6829092a14f">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3741,6 +3910,7 @@
 
     <!-- https://purl.org/oquo#interval-38a45401-6f0f-48d2-b553-46516e57f4d9 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-38a45401-6f0f-48d2-b553-46516e57f4d9">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3752,7 +3922,36 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-3bdbc5d1-7b5e-48df-984e-ce601b1cdb53 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-3bdbc5d1-7b5e-48df-984e-ce601b1cdb53">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
+        <rdfs:label>interval [2.0..Infinity)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-3ee68e58-0d33-4cbc-babd-93bde66343c6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-3ee68e58-0d33-4cbc-babd-93bde66343c6">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalUpperValue>
+        <rdfs:label>interval [1.1..1.5)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-4183339b-49ee-4087-9684-c556be29dc3f -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-4183339b-49ee-4087-9684-c556be29dc3f">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3767,6 +3966,7 @@
 
     <!-- https://purl.org/oquo#interval-4279b9e6-d93c-46e7-a80c-f2dae12eda78 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-4279b9e6-d93c-46e7-a80c-f2dae12eda78">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3779,6 +3979,7 @@
 
 
     <!-- https://purl.org/oquo#interval-440ef508-13ae-464e-89d4-e3db7781905a -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-440ef508-13ae-464e-89d4-e3db7781905a">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3793,6 +3994,7 @@
 
     <!-- https://purl.org/oquo#interval-45f38d9a-f765-43f0-89cc-76308075b189 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-45f38d9a-f765-43f0-89cc-76308075b189">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3806,6 +4008,7 @@
 
     <!-- https://purl.org/oquo#interval-46378538-87f4-4385-bb81-b7ec092a47e5 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-46378538-87f4-4385-bb81-b7ec092a47e5">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3817,7 +4020,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-472d01f3-9903-444b-8b50-2df16d6caee3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-472d01f3-9903-444b-8b50-2df16d6caee3">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
+        <rdfs:label>interval [0.95..Infinity)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-4767db69-f580-48a2-aff2-b7c08f346e29 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-4767db69-f580-48a2-aff2-b7c08f346e29">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3832,6 +4050,7 @@
 
     <!-- https://purl.org/oquo#interval-4b0934f7-1ab9-4529-80cb-7c43586b4272 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-4b0934f7-1ab9-4529-80cb-7c43586b4272">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3844,6 +4063,7 @@
 
 
     <!-- https://purl.org/oquo#interval-4b7a87e0-496f-4047-a939-be16c878769a -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-4b7a87e0-496f-4047-a939-be16c878769a">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3858,6 +4078,7 @@
 
     <!-- https://purl.org/oquo#interval-4e9597ce-f85d-4f21-966e-824df277b29a -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-4e9597ce-f85d-4f21-966e-824df277b29a">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3871,6 +4092,7 @@
 
     <!-- https://purl.org/oquo#interval-506ff82f-541e-43cf-a70b-9feba20f61d2 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-506ff82f-541e-43cf-a70b-9feba20f61d2">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3882,7 +4104,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-51bbc326-2f8b-41d5-91d6-1634c20bb545 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-51bbc326-2f8b-41d5-91d6-1634c20bb545">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalUpperValue>
+        <rdfs:label>interval [0.6..1.1)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-527b5bc9-f216-4823-9f79-01cd2db34423 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-527b5bc9-f216-4823-9f79-01cd2db34423">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3897,6 +4134,7 @@
 
     <!-- https://purl.org/oquo#interval-53043208-35d0-40ef-9e6d-1e62d98e0a13 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-53043208-35d0-40ef-9e6d-1e62d98e0a13">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3909,6 +4147,7 @@
 
 
     <!-- https://purl.org/oquo#interval-55333c9a-ca5d-4d25-b684-ea6cc63d127c -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-55333c9a-ca5d-4d25-b684-ea6cc63d127c">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3923,6 +4162,7 @@
 
     <!-- https://purl.org/oquo#interval-56e78aa2-ab5a-4364-893d-5fd4f2169057 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-56e78aa2-ab5a-4364-893d-5fd4f2169057">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3935,6 +4175,7 @@
 
 
     <!-- https://purl.org/oquo#interval-574da3e6-f440-4146-9e8c-8363f3890cea -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-574da3e6-f440-4146-9e8c-8363f3890cea">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3949,6 +4190,7 @@
 
     <!-- https://purl.org/oquo#interval-57803898-f612-4fe5-b5c2-7fbe62828abb -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-57803898-f612-4fe5-b5c2-7fbe62828abb">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3961,6 +4203,7 @@
 
 
     <!-- https://purl.org/oquo#interval-57875e6d-b0b3-42fb-961a-4f1c6894dc91 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-57875e6d-b0b3-42fb-961a-4f1c6894dc91">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -3975,6 +4218,7 @@
 
     <!-- https://purl.org/oquo#interval-5830d8fd-f1d8-4fb5-b6a8-5ed22164c8b6 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-5830d8fd-f1d8-4fb5-b6a8-5ed22164c8b6">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -3987,6 +4231,7 @@
 
 
     <!-- https://purl.org/oquo#interval-59694294-0386-4caf-bcd5-31fda6f571a8 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-59694294-0386-4caf-bcd5-31fda6f571a8">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4001,6 +4246,7 @@
 
     <!-- https://purl.org/oquo#interval-5986b261-d20d-4abb-8b6a-47499879ce2e -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-5986b261-d20d-4abb-8b6a-47499879ce2e">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4012,7 +4258,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-5b6f0ddb-8898-4c1c-baf0-30d62f04e7eb -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-5b6f0ddb-8898-4c1c-baf0-30d62f04e7eb">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalUpperValue>
+        <rdfs:label>interval [0.05..0.2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-5e758621-7850-4a46-ad28-0e5b66e7f062 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-5e758621-7850-4a46-ad28-0e5b66e7f062">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4025,7 +4286,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-5f41ce1f-6a76-417d-8fe7-9653ad6dbad8 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-5f41ce1f-6a76-417d-8fe7-9653ad6dbad8">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalUpperValue>
+        <rdfs:label>interval [0.4..0.9)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-5fc8fac1-bc08-4e35-ab85-cd60216a260d -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-5fc8fac1-bc08-4e35-ab85-cd60216a260d">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4040,6 +4316,7 @@
 
     <!-- https://purl.org/oquo#interval-6185d882-4c96-48b3-b5c1-b35b3406cebc -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-6185d882-4c96-48b3-b5c1-b35b3406cebc">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4051,7 +4328,36 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-654b9c2c-c89a-451f-b3b1-d971c640515a -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-654b9c2c-c89a-451f-b3b1-d971c640515a">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalUpperValue>
+        <rdfs:label>interval [0.04..0.15)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-68e8b2ae-da8d-4342-a39b-07487f6708ac -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-68e8b2ae-da8d-4342-a39b-07487f6708ac">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.1</hasIntervalUpperValue>
+        <rdfs:label>interval [0.04..0.1)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-6c8bc375-3141-481a-825b-bae507ed6780 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-6c8bc375-3141-481a-825b-bae507ed6780">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4066,6 +4372,7 @@
 
     <!-- https://purl.org/oquo#interval-6cbed39d-50e0-4bee-9976-b9e205a6b51b -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-6cbed39d-50e0-4bee-9976-b9e205a6b51b">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4078,6 +4385,7 @@
 
 
     <!-- https://purl.org/oquo#interval-6e4ca7d4-8483-4863-894e-5ee3a89b828d -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-6e4ca7d4-8483-4863-894e-5ee3a89b828d">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4092,6 +4400,7 @@
 
     <!-- https://purl.org/oquo#interval-70aafab3-3b89-4a1b-ae8b-ee7aedf4d167 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-70aafab3-3b89-4a1b-ae8b-ee7aedf4d167">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4104,6 +4413,7 @@
 
 
     <!-- https://purl.org/oquo#interval-7207f34f-ab52-40e1-b4c4-c58ee6add142 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-7207f34f-ab52-40e1-b4c4-c58ee6add142">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4118,6 +4428,7 @@
 
     <!-- https://purl.org/oquo#interval-727a671b-ea3e-446a-9338-21d0a1d718b4 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-727a671b-ea3e-446a-9338-21d0a1d718b4">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4130,6 +4441,7 @@
 
 
     <!-- https://purl.org/oquo#interval-7751091f-d333-477b-997a-221bb8a66013 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-7751091f-d333-477b-997a-221bb8a66013">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4144,6 +4456,7 @@
 
     <!-- https://purl.org/oquo#interval-79b1a9e4-3bf0-4215-89c6-84bad96ed27a -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-79b1a9e4-3bf0-4215-89c6-84bad96ed27a">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4155,7 +4468,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-7a61fd65-fa82-44ee-9377-54b637c72c4b -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-7a61fd65-fa82-44ee-9377-54b637c72c4b">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.02)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-7c1ebc9d-30f0-4180-852d-67049328db13 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-7c1ebc9d-30f0-4180-852d-67049328db13">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4168,7 +4496,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-7ec0590f-e02b-4bd0-bd52-477de8c2789c -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-7ec0590f-e02b-4bd0-bd52-477de8c2789c">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.97</hasIntervalUpperValue>
+        <rdfs:label>interval [0.25..0.97)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-7f2b4607-060e-430e-939a-38e3a66dd759 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-7f2b4607-060e-430e-939a-38e3a66dd759">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4181,7 +4524,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-81bcf342-4abb-4425-8d42-0895782c2a12 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-81bcf342-4abb-4425-8d42-0895782c2a12">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.25)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-81fadb19-79f8-4188-b3da-c9a2674c4411 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-81fadb19-79f8-4188-b3da-c9a2674c4411">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4196,6 +4554,7 @@
 
     <!-- https://purl.org/oquo#interval-835a363e-73b7-4751-9b83-162d2a28732e -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-835a363e-73b7-4751-9b83-162d2a28732e">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4207,7 +4566,36 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-8369f875-12a1-44f4-8c0e-5ca99e359298 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-8369f875-12a1-44f4-8c0e-5ca99e359298">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.97</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.03</hasIntervalUpperValue>
+        <rdfs:label>interval [0.97..1.03)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-8532f7cf-4cae-48f3-811e-06a37cc17705 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-8532f7cf-4cae-48f3-811e-06a37cc17705">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.07</hasIntervalUpperValue>
+        <rdfs:label>interval [0.02..0.07)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-8729b61c-e845-4d9a-a10b-f5d46398d63c -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-8729b61c-e845-4d9a-a10b-f5d46398d63c">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4222,6 +4610,7 @@
 
     <!-- https://purl.org/oquo#interval-8a1445fb-4702-425e-b0eb-d6b90137515a -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-8a1445fb-4702-425e-b0eb-d6b90137515a">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4234,6 +4623,7 @@
 
 
     <!-- https://purl.org/oquo#interval-8a7919c1-63cd-47ac-8265-6d7bad74064c -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-8a7919c1-63cd-47ac-8265-6d7bad74064c">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4248,6 +4638,7 @@
 
     <!-- https://purl.org/oquo#interval-8c7fccd9-8bf0-459a-a5d3-e7f73aa98ba8 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-8c7fccd9-8bf0-459a-a5d3-e7f73aa98ba8">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4260,6 +4651,7 @@
 
 
     <!-- https://purl.org/oquo#interval-8e27221a-d4a4-4c2c-ab2e-62a737f65d79 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-8e27221a-d4a4-4c2c-ab2e-62a737f65d79">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4274,6 +4666,7 @@
 
     <!-- https://purl.org/oquo#interval-90a16e11-5633-47d2-99eb-eef4d943066b -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-90a16e11-5633-47d2-99eb-eef4d943066b">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4286,6 +4679,7 @@
 
 
     <!-- https://purl.org/oquo#interval-922cc36a-69e2-4912-ba08-a2cbf0400cea -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-922cc36a-69e2-4912-ba08-a2cbf0400cea">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4300,6 +4694,7 @@
 
     <!-- https://purl.org/oquo#interval-941954cb-8fca-4e78-b6b7-8c4be441e6c0 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-941954cb-8fca-4e78-b6b7-8c4be441e6c0">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4311,7 +4706,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-9510bd69-0937-47ca-848c-bce45c791b1f -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-9510bd69-0937-47ca-848c-bce45c791b1f">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</hasIntervalUpperValue>
+        <rdfs:label>interval [1.1..2.0)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-9596c890-d8e2-4404-a1d8-328344a7fe9c -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-9596c890-d8e2-4404-a1d8-328344a7fe9c">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4326,6 +4736,7 @@
 
     <!-- https://purl.org/oquo#interval-96ea804e-f5e0-4e11-bc2d-ed2cc9161776 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-96ea804e-f5e0-4e11-bc2d-ed2cc9161776">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4338,6 +4749,7 @@
 
 
     <!-- https://purl.org/oquo#interval-982b8bc4-d006-4727-8a80-91c133e218ef -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-982b8bc4-d006-4727-8a80-91c133e218ef">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4352,6 +4764,7 @@
 
     <!-- https://purl.org/oquo#interval-98ab65cf-c19f-4003-af85-41526bdc34c0 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-98ab65cf-c19f-4003-af85-41526bdc34c0">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4364,6 +4777,7 @@
 
 
     <!-- https://purl.org/oquo#interval-9daa5572-21b4-4d9c-a410-348a455f3170 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-9daa5572-21b4-4d9c-a410-348a455f3170">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4378,6 +4792,7 @@
 
     <!-- https://purl.org/oquo#interval-a3fba8c7-75bc-4244-af9d-ac84d04612e0 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-a3fba8c7-75bc-4244-af9d-ac84d04612e0">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4390,6 +4805,7 @@
 
 
     <!-- https://purl.org/oquo#interval-a57484bf-1f62-4c1e-9795-39433b33e84a -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-a57484bf-1f62-4c1e-9795-39433b33e84a">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4404,6 +4820,7 @@
 
     <!-- https://purl.org/oquo#interval-a9e89dce-f51e-4027-a5e0-fab649619134 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-a9e89dce-f51e-4027-a5e0-fab649619134">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4416,6 +4833,7 @@
 
 
     <!-- https://purl.org/oquo#interval-aa60994c-0e12-4b86-a2b3-f10f35a4276b -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-aa60994c-0e12-4b86-a2b3-f10f35a4276b">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4430,6 +4848,7 @@
 
     <!-- https://purl.org/oquo#interval-aa6fdf36-2cef-4f47-a18e-3255196f10e1 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-aa6fdf36-2cef-4f47-a18e-3255196f10e1">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4441,7 +4860,36 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-aea60a8d-3b17-460c-a412-4f77ab63987b -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-aea60a8d-3b17-460c-a412-4f77ab63987b">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.02)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-b1c4c8a3-8b50-495a-a442-61a344b10adf -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-b1c4c8a3-8b50-495a-a442-61a344b10adf">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.05)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-b5b8e25f-1f14-4c5d-bbb8-ac6e3cc6d741 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-b5b8e25f-1f14-4c5d-bbb8-ac6e3cc6d741">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4456,6 +4904,7 @@
 
     <!-- https://purl.org/oquo#interval-b7410b7b-1f28-424f-9881-3336f9f94390 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-b7410b7b-1f28-424f-9881-3336f9f94390">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4468,6 +4917,7 @@
 
 
     <!-- https://purl.org/oquo#interval-b9ca0f9d-1247-44e5-9acd-1e9fbe5dc56e -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-b9ca0f9d-1247-44e5-9acd-1e9fbe5dc56e">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4482,6 +4932,7 @@
 
     <!-- https://purl.org/oquo#interval-ba7e96a3-c472-46a8-8c15-69cee4854d39 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-ba7e96a3-c472-46a8-8c15-69cee4854d39">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4493,7 +4944,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-bb53a249-4e4d-461d-961b-ad7be7218a47 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-bb53a249-4e4d-461d-961b-ad7be7218a47">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.4)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-bc25b6e9-f7de-400a-bd29-c74887925ed9 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-bc25b6e9-f7de-400a-bd29-c74887925ed9">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4506,7 +4972,36 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-bf40e3e8-8b31-4c28-8076-88d4c14c8e3b -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-bf40e3e8-8b31-4c28-8076-88d4c14c8e3b">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.65</hasIntervalUpperValue>
+        <rdfs:label>interval [0.2..0.65)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-c07eb5af-65ce-47e1-a79f-699ea83b3732 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c07eb5af-65ce-47e1-a79f-699ea83b3732">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalUpperValue>
+        <rdfs:label>interval [0.01..0.03)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-c11514cc-dc32-4091-826d-8652d7049c78 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c11514cc-dc32-4091-826d-8652d7049c78">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4521,6 +5016,7 @@
 
     <!-- https://purl.org/oquo#interval-c4e27dcb-6bd8-4102-9fde-a98740625613 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c4e27dcb-6bd8-4102-9fde-a98740625613">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4534,6 +5030,7 @@
 
     <!-- https://purl.org/oquo#interval-c5230da0-69ba-434f-8eae-7912176095cc -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c5230da0-69ba-434f-8eae-7912176095cc">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4545,7 +5042,50 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-c5fb2b37-efc0-4314-93ff-430a46315cf3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c5fb2b37-efc0-4314-93ff-430a46315cf3">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.02)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-c7fb14fb-d278-41c2-828f-2647be3cf745 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c7fb14fb-d278-41c2-828f-2647be3cf745">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.65</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalUpperValue>
+        <rdfs:label>interval [0.65..0.95)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-c8d8e3fe-2902-488f-8a45-650345748f3d -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c8d8e3fe-2902-488f-8a45-650345748f3d">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.04)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-c975e949-a8da-43c0-a566-a56d49503e3d -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c975e949-a8da-43c0-a566-a56d49503e3d">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4558,7 +5098,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-c997c670-a16c-4f51-a25e-32dca0685dee -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c997c670-a16c-4f51-a25e-32dca0685dee">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.02)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-cbc4d13f-387a-4b2c-85a6-31e46bb741a8 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-cbc4d13f-387a-4b2c-85a6-31e46bb741a8">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4571,7 +5126,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-cbe659e7-a429-4542-914d-fd26e0bfa3b3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-cbe659e7-a429-4542-914d-fd26e0bfa3b3">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasIntervalUpperValue>
+        <rdfs:label>interval [0.9..1.1)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-cc43f9c6-a6ef-43bb-9086-34fa54077e35 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-cc43f9c6-a6ef-43bb-9086-34fa54077e35">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4586,6 +5156,7 @@
 
     <!-- https://purl.org/oquo#interval-cdffad25-3b11-4c27-9967-d4bdd8211015 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-cdffad25-3b11-4c27-9967-d4bdd8211015">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4597,7 +5168,50 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-ce61df4e-5159-47c2-a883-d6d703c63cae -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-ce61df4e-5159-47c2-a883-d6d703c63cae">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.03)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-cf3c415f-2201-459e-a764-2abd61543c31 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-cf3c415f-2201-459e-a764-2abd61543c31">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.09</hasIntervalUpperValue>
+        <rdfs:label>interval [0.03..0.09)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-d5018ee5-b8a0-4634-8ab2-2e9ef5eb4201 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-d5018ee5-b8a0-4634-8ab2-2e9ef5eb4201">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.03</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalUpperValue>
+        <rdfs:label>interval [1.03..1.5)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-d52230ef-3699-4515-9c61-ca4ab80645de -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-d52230ef-3699-4515-9c61-ca4ab80645de">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4612,6 +5226,7 @@
 
     <!-- https://purl.org/oquo#interval-d725d6bf-c3e3-4319-87e1-aec958a2e4ea -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-d725d6bf-c3e3-4319-87e1-aec958a2e4ea">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4623,7 +5238,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-d8d60a91-66fc-4c18-97bc-5001745a9c93 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-d8d60a91-66fc-4c18-97bc-5001745a9c93">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalUpperValue>
+        <rdfs:label>interval [0.2..0.6)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-dbf1eff8-4dc6-4cfc-9e8d-cfed9f0f4817 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-dbf1eff8-4dc6-4cfc-9e8d-cfed9f0f4817">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4636,7 +5266,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-dd39fca4-34c7-4c99-9998-92be06ac4ec6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-dd39fca4-34c7-4c99-9998-92be06ac4ec6">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.01)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-dddf9130-57f7-4abb-8835-771cc2e4b08f -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-dddf9130-57f7-4abb-8835-771cc2e4b08f">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4651,6 +5296,7 @@
 
     <!-- https://purl.org/oquo#interval-dfb21020-a3f3-4322-8cea-c7e4a99df3fe -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-dfb21020-a3f3-4322-8cea-c7e4a99df3fe">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4664,6 +5310,7 @@
 
     <!-- https://purl.org/oquo#interval-e058a177-0e53-4b6f-a23c-ab8e074fa71e -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-e058a177-0e53-4b6f-a23c-ab8e074fa71e">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4675,7 +5322,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-e11198cd-35be-40a4-987c-88aaec125d81 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-e11198cd-35be-40a4-987c-88aaec125d81">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-e2606664-84f9-4bf4-82a1-ba3044cb66f6 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-e2606664-84f9-4bf4-82a1-ba3044cb66f6">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4690,6 +5352,7 @@
 
     <!-- https://purl.org/oquo#interval-e51bd859-851e-4e09-8ce3-c99408beecaa -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-e51bd859-851e-4e09-8ce3-c99408beecaa">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4702,6 +5365,7 @@
 
 
     <!-- https://purl.org/oquo#interval-e53d3ce0-e4da-4bac-902f-44ac1a17c4dd -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-e53d3ce0-e4da-4bac-902f-44ac1a17c4dd">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4716,6 +5380,7 @@
 
     <!-- https://purl.org/oquo#interval-e5423088-9837-4114-ab70-9dd0bcd15c06 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-e5423088-9837-4114-ab70-9dd0bcd15c06">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4727,7 +5392,64 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-e55d4b65-9c48-41d3-bba4-ce956bf33063 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-e55d4b65-9c48-41d3-bba4-ce956bf33063">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalUpperValue>
+        <rdfs:label>interval [0.2..0.6)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-e90819b5-72ae-4fb3-966c-56003ea32796 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-e90819b5-72ae-4fb3-966c-56003ea32796">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.04)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-eae24479-edfa-4b48-badf-b39c1cad52d4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-eae24479-edfa-4b48-badf-b39c1cad52d4">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-eba79572-f1e5-49fc-887c-86d07c8ab0b5 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-eba79572-f1e5-49fc-887c-86d07c8ab0b5">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalUpperValue>
+        <rdfs:label>interval [0.05..0.15)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-f33da981-7f54-48a9-95dd-d169d97251f8 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-f33da981-7f54-48a9-95dd-d169d97251f8">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4742,6 +5464,7 @@
 
     <!-- https://purl.org/oquo#interval-f69c8bbf-8206-4511-843f-f8d42c1155c0 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-f69c8bbf-8206-4511-843f-f8d42c1155c0">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4755,6 +5478,7 @@
 
     <!-- https://purl.org/oquo#interval-f85e0641-9025-4eb6-b216-09a233ebab56 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-f85e0641-9025-4eb6-b216-09a233ebab56">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4766,7 +5490,22 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-f8b0e35e-7f51-4aff-b9cc-2c434a20fe7c -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-f8b0e35e-7f51-4aff-b9cc-2c434a20fe7c">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
+        <rdfs:label>interval [1.5..Infinity)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-fa1844bb-c7d1-4542-9d25-6d0fcab92a46 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fa1844bb-c7d1-4542-9d25-6d0fcab92a46">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4779,7 +5518,36 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-fa9cdb73-1f9d-4c90-9488-f2611ba1abef -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fa9cdb73-1f9d-4c90-9488-f2611ba1abef">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
+        <rdfs:label>interval [0.02..0.05)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-fb426b8e-e439-43ad-87da-c4e56bc49661 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fb426b8e-e439-43ad-87da-c4e56bc49661">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
+        <rdfs:label>interval [0.0..0.05)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-fc21a072-9bc9-4c86-8398-d4ded2b5effb -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fc21a072-9bc9-4c86-8398-d4ded2b5effb">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4792,7 +5560,36 @@
     
 
 
+    <!-- https://purl.org/oquo#interval-fc839b23-44c1-49c2-a1e8-6e813bc329c5 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fc839b23-44c1-49c2-a1e8-6e813bc329c5">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
+        <rdfs:label>interval [0.02..0.05)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#interval-fce00a08-f8f2-4993-a161-4b16c1ab9b7e -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fce00a08-f8f2-4993-a161-4b16c1ab9b7e">
+        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
+        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
+        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
+        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalLowerValue>
+        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
+        <rdfs:label>interval [0.02..0.05)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#interval-fe318a22-3639-4c42-be83-5317e5f0397e -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fe318a22-3639-4c42-be83-5317e5f0397e">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
@@ -4807,6 +5604,7 @@
 
     <!-- https://purl.org/oquo#interval-ffb23d99-0fac-43e9-8fa4-98484e47625c -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-ffb23d99-0fac-43e9-8fa4-98484e47625c">
         <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
         <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
@@ -4819,6 +5617,7 @@
 
 
     <!-- https://purl.org/oquo#scaleConversion-0d1b4e80-f57e-4736-bcda-f8d3a068227a -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-0d1b4e80-f57e-4736-bcda-f8d3a068227a">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -4835,7 +5634,26 @@
     
 
 
+    <!-- https://purl.org/oquo#scaleConversion-1482099b-08c4-4911-8737-b23f5d2547d0 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-1482099b-08c4-4911-8737-b23f5d2547d0">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
+        <hasInputScale rdf:resource="https://purl.org/oquo#DataPropertiesWithNoSynonymMetricScale"/>
+        <hasOutputScale rdf:resource="https://purl.org/oquo#OquareFiveCategoriesScale"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-6391d745-d288-418b-aac7-d367bffb2e52"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-6ea3befe-7d52-4b9a-94c9-ba484b77474a"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-b67c940f-9afc-4795-86cd-1b58a45de176"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-bec505f7-f19d-4dad-84a1-b3e53b616ee6"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-c9868e7d-9d8d-470b-9262-2d31ce365967"/>
+        <rdfs:comment>The definition of the conversion between the scales &lt;https://purl.org/oquo#DataPropertiesWithNoSynonymMetricScale&gt; and &lt;https://purl.org/oquo#OquareFiveCategoriesScale&gt;.</rdfs:comment>
+        <rdfs:label>data properties with no synonym metric scale to oquare five categories scale conversion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scaleConversion-17c1615e-c5f9-4f85-a43e-10e014f8bf6d -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-17c1615e-c5f9-4f85-a43e-10e014f8bf6d">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -4854,6 +5672,7 @@
 
     <!-- https://purl.org/oquo#scaleConversion-1dfc6c92-77a5-4714-aa86-9eff2a6f1c6c -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-1dfc6c92-77a5-4714-aa86-9eff2a6f1c6c">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
         <hasInputScale rdf:resource="https://purl.org/oquo#ObjectPropertiesWithNoNameMetricScale"/>
@@ -4869,7 +5688,26 @@
     
 
 
+    <!-- https://purl.org/oquo#scaleConversion-1fd05d3d-9fc4-4796-988d-8f538551df5b -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-1fd05d3d-9fc4-4796-988d-8f538551df5b">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
+        <hasInputScale rdf:resource="https://purl.org/oquo#NamesPerPropertyMetricScale"/>
+        <hasOutputScale rdf:resource="https://purl.org/oquo#OquareFiveCategoriesScale"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-03557735-70cb-4622-b86f-acd3ff9cefb6"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-07d6d767-0ecf-4806-b6b1-e89f65d34d99"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-2d0248a0-b118-420d-9c3c-a94a5ea0a765"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-d5c84d56-0aa7-4046-aca0-cfad9d2340bc"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-f3ed1537-5252-4ffa-9163-695e70b327cb"/>
+        <rdfs:comment>The definition of the conversion between the scales &lt;https://purl.org/oquo#NamesPerPropertyMetricScale&gt; and &lt;https://purl.org/oquo#OquareFiveCategoriesScale&gt;.</rdfs:comment>
+        <rdfs:label>names per property metric scale to oquare five categories scale conversion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scaleConversion-272aca7b-8fe8-49f6-9ffa-fbcdb7e1a472 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-272aca7b-8fe8-49f6-9ffa-fbcdb7e1a472">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -4888,6 +5726,7 @@
 
     <!-- https://purl.org/oquo#scaleConversion-2fe1d7db-3449-4959-9f38-b0f17db016a6 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-2fe1d7db-3449-4959-9f38-b0f17db016a6">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
         <hasInputScale rdf:resource="https://purl.org/oquo#AnnotationPropertiesWithNoDescriptionMetricScale"/>
@@ -4903,7 +5742,26 @@
     
 
 
+    <!-- https://purl.org/oquo#scaleConversion-319dfc0d-ea6e-40c0-b604-8e7b813433b6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-319dfc0d-ea6e-40c0-b604-8e7b813433b6">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
+        <hasInputScale rdf:resource="https://purl.org/oquo#DescriptionsPerPropertyMetricScale"/>
+        <hasOutputScale rdf:resource="https://purl.org/oquo#OquareFiveCategoriesScale"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-00a17d32-fa2e-409d-b059-f84dd5fff506"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-0c3f012c-9a31-4b41-90a0-659303d4a814"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-6b6b2d35-e7ec-445d-b7d6-54dccfe690ff"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-71bad638-2b61-4387-ad02-6f70ba28e8ff"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-7e6d10ca-3f2c-476d-a048-e81eb34036cc"/>
+        <rdfs:comment>The definition of the conversion between the scales &lt;https://purl.org/oquo#DescriptionsPerPropertyMetricScale&gt; and &lt;https://purl.org/oquo#OquareFiveCategoriesScale&gt;.</rdfs:comment>
+        <rdfs:label>descriptions per property metric scale to oquare five categories scale conversion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scaleConversion-351a3feb-0ee2-4f5b-957e-4f72464567c1 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-351a3feb-0ee2-4f5b-957e-4f72464567c1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -4920,7 +5778,26 @@
     
 
 
+    <!-- https://purl.org/oquo#scaleConversion-38cf2c7c-770b-406f-be49-1a2347261511 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-38cf2c7c-770b-406f-be49-1a2347261511">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
+        <hasInputScale rdf:resource="https://purl.org/oquo#SynonymsPerPropertyMetricScale"/>
+        <hasOutputScale rdf:resource="https://purl.org/oquo#OquareFiveCategoriesScale"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-21500811-c1ed-4f88-83f0-60e74fff2903"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-2671da18-32d6-4da6-9f97-f5988a68c25d"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-4609b480-a8dc-4b7b-ab4a-52be12afb697"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-ae12dfee-ecbf-47b4-b0c6-3d6446833586"/>
+        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-ecc74557-9550-4862-8c9d-523bca2ce535"/>
+        <rdfs:comment>The definition of the conversion between the scales &lt;https://purl.org/oquo#SynonymsPerPropertyMetricScale&gt; and &lt;https://purl.org/oquo#OquareFiveCategoriesScale&gt;.</rdfs:comment>
+        <rdfs:label>synonyms per property metric scale to oquare five categories scale conversion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scaleConversion-409f06d8-3742-405f-a631-924602a762f1 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-409f06d8-3742-405f-a631-924602a762f1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -4939,6 +5816,7 @@
 
     <!-- https://purl.org/oquo#scaleConversion-64cc74bb-f15d-48fc-a877-19e418adcb0f -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-64cc74bb-f15d-48fc-a877-19e418adcb0f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
         <hasInputScale rdf:resource="https://purl.org/oquo#SynonymsPerObjectPropertyMetricScale"/>
@@ -4955,6 +5833,7 @@
 
 
     <!-- https://purl.org/oquo#scaleConversion-83a5cdc1-b19a-43ab-a033-5203223bce58 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-83a5cdc1-b19a-43ab-a033-5203223bce58">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -4973,6 +5852,7 @@
 
     <!-- https://purl.org/oquo#scaleConversion-9124d387-8636-4ec6-a20d-f0e56a874ee1 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-9124d387-8636-4ec6-a20d-f0e56a874ee1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
         <hasInputScale rdf:resource="https://purl.org/oquo#DescriptionsPerAnnotationPropertyMetricScale"/>
@@ -4989,6 +5869,7 @@
 
 
     <!-- https://purl.org/oquo#scaleConversion-9c933996-9749-4d54-8fc5-67ad46af5d17 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-9c933996-9749-4d54-8fc5-67ad46af5d17">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -5007,6 +5888,7 @@
 
     <!-- https://purl.org/oquo#scaleConversion-9cdf22b4-f34a-4f9e-89c2-dc790dae5b8a -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-9cdf22b4-f34a-4f9e-89c2-dc790dae5b8a">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
         <hasInputScale rdf:resource="https://purl.org/oquo#AnnotationPropertiesWithNoSynonymMetricScale"/>
@@ -5023,6 +5905,7 @@
 
 
     <!-- https://purl.org/oquo#scaleConversion-9f111646-7607-4cd7-a103-a6c3bd589626 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-9f111646-7607-4cd7-a103-a6c3bd589626">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -5041,6 +5924,7 @@
 
     <!-- https://purl.org/oquo#scaleConversion-a1e8410d-7444-4312-bc35-6852bf6caa40 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-a1e8410d-7444-4312-bc35-6852bf6caa40">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
         <hasInputScale rdf:resource="https://purl.org/oquo#SystematicNamingMetricScale"/>
@@ -5057,6 +5941,7 @@
 
 
     <!-- https://purl.org/oquo#scaleConversion-ad1dee65-7cfb-4a7e-96dd-09b39c1e8eb3 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-ad1dee65-7cfb-4a7e-96dd-09b39c1e8eb3">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -5075,6 +5960,7 @@
 
     <!-- https://purl.org/oquo#scaleConversion-b34fcb17-c485-4a6d-9f86-84159fd8b013 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-b34fcb17-c485-4a6d-9f86-84159fd8b013">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
         <hasInputScale rdf:resource="https://purl.org/oquo#SynonymsPerClassMetricScale"/>
@@ -5091,6 +5977,7 @@
 
 
     <!-- https://purl.org/oquo#scaleConversion-b4a4f528-48c2-491d-ba5a-6c4ea7bfa6e7 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-b4a4f528-48c2-491d-ba5a-6c4ea7bfa6e7">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -5109,6 +5996,7 @@
 
     <!-- https://purl.org/oquo#scaleConversion-d35bed06-6714-45a6-98de-7ee265e7baaa -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-d35bed06-6714-45a6-98de-7ee265e7baaa">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
         <hasInputScale rdf:resource="https://purl.org/oquo#DataPropertiesWithNoDescriptionMetricScale"/>
@@ -5125,6 +6013,7 @@
 
 
     <!-- https://purl.org/oquo#scaleConversion-d80b9574-0b8b-42e1-bbf3-23a371ab93c7 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-d80b9574-0b8b-42e1-bbf3-23a371ab93c7">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -5143,6 +6032,7 @@
 
     <!-- https://purl.org/oquo#scaleConversion-d945ba33-824d-4521-8087-f12fce0443e3 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-d945ba33-824d-4521-8087-f12fce0443e3">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
         <hasInputScale rdf:resource="https://purl.org/oquo#NamesPerObjectPropertyMetricScale"/>
@@ -5159,6 +6049,7 @@
 
 
     <!-- https://purl.org/oquo#scaleConversion-ded4e5b5-8c2d-481e-b2b1-fa681783952e -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-ded4e5b5-8c2d-481e-b2b1-fa681783952e">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -5177,6 +6068,7 @@
 
     <!-- https://purl.org/oquo#scaleConversion-dfbeb45b-4045-410d-a830-b9ef43cfcae7 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-dfbeb45b-4045-410d-a830-b9ef43cfcae7">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
         <hasInputScale rdf:resource="https://purl.org/oquo#ClassesWithNoDescriptionMetricScale"/>
@@ -5193,6 +6085,7 @@
 
 
     <!-- https://purl.org/oquo#scaleConversion-e0718dcf-29bd-4654-a0b6-6dabf01dd259 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-e0718dcf-29bd-4654-a0b6-6dabf01dd259">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -5211,6 +6104,7 @@
 
     <!-- https://purl.org/oquo#scaleConversion-ec646e3e-a19e-437e-8ddb-ecc3dbec0ff1 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-ec646e3e-a19e-437e-8ddb-ecc3dbec0ff1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
         <hasInputScale rdf:resource="https://purl.org/oquo#LexicallySuggestLogicallyDefineMetricScale"/>
@@ -5228,6 +6122,7 @@
 
     <!-- https://purl.org/oquo#scaleConversion-f6c7ccb4-a88e-493f-bf54-6f933bbd864b -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-f6c7ccb4-a88e-493f-bf54-6f933bbd864b">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
         <hasInputScale rdf:resource="https://purl.org/oquo#ClassesWithNoNameMetricScale"/>
@@ -5243,7 +6138,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-00a17d32-fa2e-409d-b059-f84dd5fff506 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-00a17d32-fa2e-409d-b059-f84dd5fff506">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-5f41ce1f-6a76-417d-8fe7-9653ad6dbad8"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
+        <rdfs:label>mapping [0.4..0.9) -&gt; 2 (Insufficient)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-02d248d2-5f72-4fb5-8061-160e815a37d4 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-02d248d2-5f72-4fb5-8061-160e815a37d4">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5254,7 +6162,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-03557735-70cb-4622-b86f-acd3ff9cefb6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-03557735-70cb-4622-b86f-acd3ff9cefb6">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-81bcf342-4abb-4425-8d42-0895782c2a12"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
+        <rdfs:label>mapping [0.0..0.25) -&gt; 1 (Not acceptable)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-03beabc3-4ea8-47c4-95d1-a5b06b044699 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-03beabc3-4ea8-47c4-95d1-a5b06b044699">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5267,6 +6188,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-06553c9c-b944-4886-af70-5e980721fbf2 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-06553c9c-b944-4886-af70-5e980721fbf2">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-81fadb19-79f8-4188-b3da-c9a2674c4411"/>
@@ -5276,7 +6198,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-07d6d767-0ecf-4806-b6b1-e89f65d34d99 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-07d6d767-0ecf-4806-b6b1-e89f65d34d99">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-f8b0e35e-7f51-4aff-b9cc-2c434a20fe7c"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
+        <rdfs:label>mapping [1.5..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-07f87cca-9106-4343-84b3-cd92b57507e1 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-07f87cca-9106-4343-84b3-cd92b57507e1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5289,6 +6224,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-083dc222-5e5b-4274-a027-1873e94b98c0 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-083dc222-5e5b-4274-a027-1873e94b98c0">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-4767db69-f580-48a2-aff2-b7c08f346e29"/>
@@ -5299,6 +6235,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-09e3f3a9-74ce-4347-a3c8-8fcd736b83cd -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-09e3f3a9-74ce-4347-a3c8-8fcd736b83cd">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5311,6 +6248,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-0a122696-d615-4eb8-8bb0-b9680ec563fe -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-0a122696-d615-4eb8-8bb0-b9680ec563fe">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-aa60994c-0e12-4b86-a2b3-f10f35a4276b"/>
@@ -5320,7 +6258,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-0c3f012c-9a31-4b41-90a0-659303d4a814 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-0c3f012c-9a31-4b41-90a0-659303d4a814">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-bb53a249-4e4d-461d-961b-ad7be7218a47"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
+        <rdfs:label>mapping [0.0..0.4) -&gt; 1 (Not acceptable)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-0eaccf0a-8cd1-4d61-a519-c3c0a109e03f -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-0eaccf0a-8cd1-4d61-a519-c3c0a109e03f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5333,6 +6284,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-0f5c22e6-54b0-4f65-9dcc-6bd23b3d939f -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-0f5c22e6-54b0-4f65-9dcc-6bd23b3d939f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-a3fba8c7-75bc-4244-af9d-ac84d04612e0"/>
@@ -5343,6 +6295,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-0f72fe1c-ccd2-40a2-b56e-7d3c67cfe775 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-0f72fe1c-ccd2-40a2-b56e-7d3c67cfe775">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5355,6 +6308,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-13ce6d04-0900-409f-bab8-caf6f4f7c368 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-13ce6d04-0900-409f-bab8-caf6f4f7c368">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-aea60a8d-3b17-460c-a412-4f77ab63987b"/>
@@ -5365,6 +6319,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-158ff579-ffa3-4fca-822e-b821c2318878 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-158ff579-ffa3-4fca-822e-b821c2318878">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5377,6 +6332,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-16ec99be-03db-45ad-a6de-fd7e40fbd15d -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-16ec99be-03db-45ad-a6de-fd7e40fbd15d">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fa1844bb-c7d1-4542-9d25-6d0fcab92a46"/>
@@ -5387,6 +6343,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-18775ad3-6366-4f64-a0f7-5d767c64fa9f -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-18775ad3-6366-4f64-a0f7-5d767c64fa9f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5399,6 +6356,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-1a29c926-3715-4cdd-b6a2-350af903bd42 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-1a29c926-3715-4cdd-b6a2-350af903bd42">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-dd39fca4-34c7-4c99-9998-92be06ac4ec6"/>
@@ -5409,6 +6367,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-1afb2c9f-f526-4f56-8a66-d86ab6c8158e -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-1afb2c9f-f526-4f56-8a66-d86ab6c8158e">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5421,6 +6380,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-1e97804c-9c3d-4ecc-aad8-4c0b514f0507 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-1e97804c-9c3d-4ecc-aad8-4c0b514f0507">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-56e78aa2-ab5a-4364-893d-5fd4f2169057"/>
@@ -5431,6 +6391,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-1ed0fadc-e5d5-43d4-a111-a425dc289126 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-1ed0fadc-e5d5-43d4-a111-a425dc289126">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5443,6 +6404,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-1f7959a4-c02b-46fa-878d-d4b58ad17a83 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-1f7959a4-c02b-46fa-878d-d4b58ad17a83">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c11514cc-dc32-4091-826d-8652d7049c78"/>
@@ -5453,6 +6415,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-1f9706da-d3be-4986-882c-295155db2a10 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-1f9706da-d3be-4986-882c-295155db2a10">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5465,6 +6428,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-20c8e8aa-a05e-495d-afec-54229a529f9b -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-20c8e8aa-a05e-495d-afec-54229a529f9b">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-37a3c5e7-db95-41c1-99a3-d6829092a14f"/>
@@ -5474,7 +6438,32 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-21500811-c1ed-4f88-83f0-60e74fff2903 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-21500811-c1ed-4f88-83f0-60e74fff2903">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-9510bd69-0937-47ca-848c-bce45c791b1f"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
+        <rdfs:label>mapping [1.1..2.0) -&gt; 4 (Acceptable)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#scalePointMapping-2671da18-32d6-4da6-9f97-f5988a68c25d -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-2671da18-32d6-4da6-9f97-f5988a68c25d">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-3bdbc5d1-7b5e-48df-984e-ce601b1cdb53"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
+        <rdfs:label>mapping [2.0..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-29f7f3e8-2aac-45a2-a815-201acadbfb66 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-29f7f3e8-2aac-45a2-a815-201acadbfb66">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5487,6 +6476,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-2b2213ff-65d0-4815-a5a9-6dbebc6e8118 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-2b2213ff-65d0-4815-a5a9-6dbebc6e8118">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-f69c8bbf-8206-4511-843f-f8d42c1155c0"/>
@@ -5498,6 +6488,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-2bb9f0b8-238e-4f74-be80-2181540b2f07 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-2bb9f0b8-238e-4f74-be80-2181540b2f07">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-4279b9e6-d93c-46e7-a80c-f2dae12eda78"/>
@@ -5507,7 +6498,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-2d0248a0-b118-420d-9c3c-a94a5ea0a765 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-2d0248a0-b118-420d-9c3c-a94a5ea0a765">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-8369f875-12a1-44f4-8c0e-5ca99e359298"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
+        <rdfs:label>mapping [0.97..1.03) -&gt; 3 (Minimally acceptable)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-2d317d2e-d102-4d10-8066-a8f35ff38a1a -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-2d317d2e-d102-4d10-8066-a8f35ff38a1a">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5520,6 +6524,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-2f83e03b-9233-44d7-bbf4-50c057ed3a35 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-2f83e03b-9233-44d7-bbf4-50c057ed3a35">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c5fb2b37-efc0-4314-93ff-430a46315cf3"/>
@@ -5530,6 +6535,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-357c789d-5765-46e5-8258-d8516602f8de -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-357c789d-5765-46e5-8258-d8516602f8de">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5542,6 +6548,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-3637ab7c-09b7-45bb-8407-3179d85bae5d -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-3637ab7c-09b7-45bb-8407-3179d85bae5d">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-4e9597ce-f85d-4f21-966e-824df277b29a"/>
@@ -5552,6 +6559,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-3d12f4ab-1e41-4c57-a4c1-304578909dcf -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-3d12f4ab-1e41-4c57-a4c1-304578909dcf">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5564,6 +6572,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-3d8e3e0f-6342-4e8c-aec7-ac81e75c07a1 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-3d8e3e0f-6342-4e8c-aec7-ac81e75c07a1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-1231947b-1604-404f-aaa4-b2b4b05c5920"/>
@@ -5574,6 +6583,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-3e6dcf9e-3a36-403c-a024-0f50027188e3 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-3e6dcf9e-3a36-403c-a024-0f50027188e3">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5586,6 +6596,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-3f346528-2e19-48c9-beb5-a5a7daf8d1d1 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-3f346528-2e19-48c9-beb5-a5a7daf8d1d1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-1f18dbee-66ff-44de-945c-b9145751df57"/>
@@ -5596,6 +6607,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-41e848a4-cd0c-4f03-80c5-7b450a94ac0f -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-41e848a4-cd0c-4f03-80c5-7b450a94ac0f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5608,6 +6620,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-41ff0a7f-5442-4ed9-98e7-a4c9c7cf73b3 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-41ff0a7f-5442-4ed9-98e7-a4c9c7cf73b3">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-70aafab3-3b89-4a1b-ae8b-ee7aedf4d167"/>
@@ -5618,6 +6631,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-43644409-5ccf-4c67-a734-63b3a15de0a3 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-43644409-5ccf-4c67-a734-63b3a15de0a3">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5630,6 +6644,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-436ef536-e0d5-4cf2-b171-293e7447153e -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-436ef536-e0d5-4cf2-b171-293e7447153e">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-55333c9a-ca5d-4d25-b684-ea6cc63d127c"/>
@@ -5641,6 +6656,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-45a0b11a-5c22-48c8-b992-a90f9572fc7c -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-45a0b11a-5c22-48c8-b992-a90f9572fc7c">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c07eb5af-65ce-47e1-a79f-699ea83b3732"/>
@@ -5650,7 +6666,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-4609b480-a8dc-4b7b-ab4a-52be12afb697 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-4609b480-a8dc-4b7b-ab4a-52be12afb697">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-e55d4b65-9c48-41d3-bba4-ce956bf33063"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
+        <rdfs:label>mapping [0.2..0.6) -&gt; 2 (Insufficient)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-4853853f-194b-4500-b012-f24c59468ef4 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-4853853f-194b-4500-b012-f24c59468ef4">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5663,6 +6692,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-4b1ecec4-8c57-458c-9fc0-4aef8313df36 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-4b1ecec4-8c57-458c-9fc0-4aef8313df36">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-b1c4c8a3-8b50-495a-a442-61a344b10adf"/>
@@ -5673,6 +6703,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-4b392501-ad08-4863-957c-71e00b3a7e00 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-4b392501-ad08-4863-957c-71e00b3a7e00">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5685,6 +6716,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-4dc09efa-1c5d-44bd-b610-1e4c5124ed7a -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-4dc09efa-1c5d-44bd-b610-1e4c5124ed7a">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-b9ca0f9d-1247-44e5-9acd-1e9fbe5dc56e"/>
@@ -5695,6 +6727,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-4e61f1d2-2db9-4633-bbbd-af50574d58f9 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-4e61f1d2-2db9-4633-bbbd-af50574d58f9">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5707,6 +6740,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-50aa7615-d25a-446d-b552-61831b65da2a -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-50aa7615-d25a-446d-b552-61831b65da2a">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-eba79572-f1e5-49fc-887c-86d07c8ab0b5"/>
@@ -5717,6 +6751,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-5488b1a7-7667-411a-91a7-ab6e8ec34b3c -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-5488b1a7-7667-411a-91a7-ab6e8ec34b3c">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5729,6 +6764,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-55f7b0d3-74e0-4945-85bf-d4cc1eb4aa12 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-55f7b0d3-74e0-4945-85bf-d4cc1eb4aa12">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fce00a08-f8f2-4993-a161-4b16c1ab9b7e"/>
@@ -5739,6 +6775,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-580c9a5b-7b42-4e5b-82f6-4a9299412651 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-580c9a5b-7b42-4e5b-82f6-4a9299412651">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5751,6 +6788,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-585fa025-e9d6-45a0-9dc9-4a23be6c31d0 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-585fa025-e9d6-45a0-9dc9-4a23be6c31d0">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-57875e6d-b0b3-42fb-961a-4f1c6894dc91"/>
@@ -5761,6 +6799,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-594642ed-5c22-485a-aab8-cc75e3e1eca9 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-594642ed-5c22-485a-aab8-cc75e3e1eca9">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5773,6 +6812,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-5b205e9b-0aa3-4218-99a6-6a02250c054f -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-5b205e9b-0aa3-4218-99a6-6a02250c054f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-8e27221a-d4a4-4c2c-ab2e-62a737f65d79"/>
@@ -5783,6 +6823,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-5e3b7dfb-e36c-4dc3-a51a-1ad52b51f376 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-5e3b7dfb-e36c-4dc3-a51a-1ad52b51f376">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5795,6 +6836,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-5e57a176-aa00-4560-a972-2d417633df97 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-5e57a176-aa00-4560-a972-2d417633df97">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-6185d882-4c96-48b3-b5c1-b35b3406cebc"/>
@@ -5805,6 +6847,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-60ae1806-383d-41aa-ae39-2ffb06aa4fce -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-60ae1806-383d-41aa-ae39-2ffb06aa4fce">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5817,6 +6860,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-6309452e-05c8-430a-a811-d53c071e3c46 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-6309452e-05c8-430a-a811-d53c071e3c46">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-32062230-853d-497b-97e8-e78889208eb9"/>
@@ -5826,7 +6870,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-6391d745-d288-418b-aac7-d367bffb2e52 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-6391d745-d288-418b-aac7-d367bffb2e52">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c7fb14fb-d278-41c2-828f-2647be3cf745"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
+        <rdfs:label>mapping [0.65..0.95) -&gt; 2 (Insufficient)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-63a3b861-fdbc-435f-abc6-b52ef234bcd3 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-63a3b861-fdbc-435f-abc6-b52ef234bcd3">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5839,6 +6896,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-67ceeeb0-08e2-46e1-a45c-8795258b9821 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-67ceeeb0-08e2-46e1-a45c-8795258b9821">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-527b5bc9-f216-4823-9f79-01cd2db34423"/>
@@ -5849,6 +6907,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-6854e852-ccf8-4b89-b7cf-8047f3094778 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-6854e852-ccf8-4b89-b7cf-8047f3094778">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5861,6 +6920,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-68755422-7249-434d-9031-8b8ad79b73d1 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-68755422-7249-434d-9031-8b8ad79b73d1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-ce61df4e-5159-47c2-a883-d6d703c63cae"/>
@@ -5872,6 +6932,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-689f4e9f-0231-4249-922f-160ec64198a1 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-689f4e9f-0231-4249-922f-160ec64198a1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fc21a072-9bc9-4c86-8398-d4ded2b5effb"/>
@@ -5881,7 +6942,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-6b6b2d35-e7ec-445d-b7d6-54dccfe690ff -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-6b6b2d35-e7ec-445d-b7d6-54dccfe690ff">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-019a0376-db87-492f-b406-5703c8a82118"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
+        <rdfs:label>mapping [1.5..Infinity) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-6bda5317-0895-4a26-9830-535228713d81 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-6bda5317-0895-4a26-9830-535228713d81">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5894,6 +6968,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-6cd5d34d-5769-4242-a270-c204358809d2 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-6cd5d34d-5769-4242-a270-c204358809d2">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-38a45401-6f0f-48d2-b553-46516e57f4d9"/>
@@ -5905,6 +6980,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-6ceb418d-f281-4af7-9ca0-064dbac9f819 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-6ceb418d-f281-4af7-9ca0-064dbac9f819">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-6c8bc375-3141-481a-825b-bae507ed6780"/>
@@ -5914,7 +6990,32 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-6ea3befe-7d52-4b9a-94c9-ba484b77474a -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-6ea3befe-7d52-4b9a-94c9-ba484b77474a">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fb426b8e-e439-43ad-87da-c4e56bc49661"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
+        <rdfs:label>mapping [0.0..0.05) -&gt; 5 (Exceeds the requirements)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo#scalePointMapping-71bad638-2b61-4387-ad02-6f70ba28e8ff -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-71bad638-2b61-4387-ad02-6f70ba28e8ff">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-3ee68e58-0d33-4cbc-babd-93bde66343c6"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
+        <rdfs:label>mapping [1.1..1.5) -&gt; 4 (Acceptable)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-78fcd61c-fa7b-45fa-93cf-72d5e4ce7a36 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-78fcd61c-fa7b-45fa-93cf-72d5e4ce7a36">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5927,6 +7028,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-7973508d-28ba-4098-92e3-38485d559c3b -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-7973508d-28ba-4098-92e3-38485d559c3b">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-9daa5572-21b4-4d9c-a410-348a455f3170"/>
@@ -5938,6 +7040,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-7ca170f1-4082-4f96-9f94-8a9b5db7ed42 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-7ca170f1-4082-4f96-9f94-8a9b5db7ed42">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-6e4ca7d4-8483-4863-894e-5ee3a89b828d"/>
@@ -5947,7 +7050,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-7e6d10ca-3f2c-476d-a048-e81eb34036cc -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-7e6d10ca-3f2c-476d-a048-e81eb34036cc">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-cbe659e7-a429-4542-914d-fd26e0bfa3b3"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
+        <rdfs:label>mapping [0.9..1.1) -&gt; 3 (Minimally acceptable)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-81d58a7b-196b-41b2-b0ad-ac99833aa9b1 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-81d58a7b-196b-41b2-b0ad-ac99833aa9b1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5960,6 +7076,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-832426c0-2667-441e-88b7-71bfc6d41d66 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-832426c0-2667-441e-88b7-71bfc6d41d66">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-2f8dcda4-0b3d-4d5d-8ab6-e94619df741d"/>
@@ -5970,6 +7087,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-881fd0db-d906-42ad-b0d6-c23a0b9fec76 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-881fd0db-d906-42ad-b0d6-c23a0b9fec76">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -5982,6 +7100,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-89c80bf0-5dfa-4b61-bea6-0468c038b5ec -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-89c80bf0-5dfa-4b61-bea6-0468c038b5ec">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-4b7a87e0-496f-4047-a939-be16c878769a"/>
@@ -5992,6 +7111,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-8d6e013c-06da-4090-9747-db5798b71f7b -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-8d6e013c-06da-4090-9747-db5798b71f7b">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6004,6 +7124,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-8f1185ec-1f55-44f7-8614-02fa6ecbb8d4 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-8f1185ec-1f55-44f7-8614-02fa6ecbb8d4">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-9596c890-d8e2-4404-a1d8-328344a7fe9c"/>
@@ -6014,6 +7135,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-90c87b6e-e07d-44c2-8130-0a951e647c81 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-90c87b6e-e07d-44c2-8130-0a951e647c81">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6026,6 +7148,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-92bea3ad-8bec-4d52-9dab-24cf5f5e79a4 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-92bea3ad-8bec-4d52-9dab-24cf5f5e79a4">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-31287366-465b-4d03-9521-6ef5101dc4e9"/>
@@ -6036,6 +7159,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-949c9f04-334b-46e6-9ab3-a996971e77b5 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-949c9f04-334b-46e6-9ab3-a996971e77b5">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6048,6 +7172,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-96ce113c-d259-473b-af98-d205821124b6 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-96ce113c-d259-473b-af98-d205821124b6">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-45f38d9a-f765-43f0-89cc-76308075b189"/>
@@ -6058,6 +7183,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-97f5bc57-4d5d-43aa-abc4-1c746cf97eca -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-97f5bc57-4d5d-43aa-abc4-1c746cf97eca">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6070,6 +7196,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-988436c7-e2b1-4e0c-a0bf-68bdf54b2de1 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-988436c7-e2b1-4e0c-a0bf-68bdf54b2de1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fc839b23-44c1-49c2-a1e8-6e813bc329c5"/>
@@ -6080,6 +7207,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-9977282f-d994-4c5f-888c-5b9afb4cdb19 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-9977282f-d994-4c5f-888c-5b9afb4cdb19">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6092,6 +7220,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-9abbc463-64b9-4f30-b594-77957dcfb61f -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-9abbc463-64b9-4f30-b594-77957dcfb61f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-46378538-87f4-4385-bb81-b7ec092a47e5"/>
@@ -6102,6 +7231,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-9b31f60d-1a65-414a-a361-2c136592ef08 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-9b31f60d-1a65-414a-a361-2c136592ef08">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6114,6 +7244,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-9b3b2506-8b1f-46a0-8dc1-f52193b52942 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-9b3b2506-8b1f-46a0-8dc1-f52193b52942">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-53043208-35d0-40ef-9e6d-1e62d98e0a13"/>
@@ -6124,6 +7255,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-9b3fda41-4b92-490f-a759-e940612edaef -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-9b3fda41-4b92-490f-a759-e940612edaef">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6136,6 +7268,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-9c0e34a7-3cbe-4d87-92dc-384f06a05df9 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-9c0e34a7-3cbe-4d87-92dc-384f06a05df9">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-7f2b4607-060e-430e-939a-38e3a66dd759"/>
@@ -6146,6 +7279,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-9fcd98fb-10af-484a-a574-104b72af5ac0 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-9fcd98fb-10af-484a-a574-104b72af5ac0">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6158,6 +7292,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-a11b36f5-f264-43e0-aed0-6cf3baaf6128 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-a11b36f5-f264-43e0-aed0-6cf3baaf6128">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c975e949-a8da-43c0-a566-a56d49503e3d"/>
@@ -6168,6 +7303,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-a2f6b11a-0a6d-4495-b4dd-6384a970c420 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-a2f6b11a-0a6d-4495-b4dd-6384a970c420">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6180,6 +7316,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-a5d536a0-29f3-494e-b378-97e3d6cf1523 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-a5d536a0-29f3-494e-b378-97e3d6cf1523">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-316738a0-0a0b-4b14-a1bd-11ad67fe6531"/>
@@ -6190,6 +7327,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-a99b9e06-d01e-44aa-849f-529fadaa9a4c -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-a99b9e06-d01e-44aa-849f-529fadaa9a4c">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6202,6 +7340,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-aa421ed3-3c43-4501-a53d-ed380e44275b -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-aa421ed3-3c43-4501-a53d-ed380e44275b">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-0fd47ae4-cba9-4aae-b70f-73540e69d959"/>
@@ -6212,6 +7351,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-ab7b4908-2006-41c3-bd68-004d9a8f9c5b -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-ab7b4908-2006-41c3-bd68-004d9a8f9c5b">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6224,6 +7364,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-adbc5e9d-557f-4e46-bcf4-50a00d773f1b -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-adbc5e9d-557f-4e46-bcf4-50a00d773f1b">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-b5b8e25f-1f14-4c5d-bbb8-ac6e3cc6d741"/>
@@ -6235,6 +7376,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-adfd6c26-d1d9-45e9-8a28-34f7c58da79f -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-adfd6c26-d1d9-45e9-8a28-34f7c58da79f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-8a7919c1-63cd-47ac-8265-6d7bad74064c"/>
@@ -6244,7 +7386,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-ae12dfee-ecbf-47b4-b0c6-3d6446833586 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-ae12dfee-ecbf-47b4-b0c6-3d6446833586">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-51bbc326-2f8b-41d5-91d6-1634c20bb545"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
+        <rdfs:label>mapping [0.6..1.1) -&gt; 3 (Minimally acceptable)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-ae92f54c-6b8e-42c6-9360-2cdc8d656815 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-ae92f54c-6b8e-42c6-9360-2cdc8d656815">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6257,6 +7412,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-b235a970-8710-408e-ac46-4c4d39c0de86 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-b235a970-8710-408e-ac46-4c4d39c0de86">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-922cc36a-69e2-4912-ba08-a2cbf0400cea"/>
@@ -6268,6 +7424,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-b641b989-a7f4-43cf-81c8-fcd7dc2f75a3 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-b641b989-a7f4-43cf-81c8-fcd7dc2f75a3">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-cf3c415f-2201-459e-a764-2abd61543c31"/>
@@ -6277,7 +7434,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-b67c940f-9afc-4795-86cd-1b58a45de176 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-b67c940f-9afc-4795-86cd-1b58a45de176">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-5b6f0ddb-8898-4c1c-baf0-30d62f04e7eb"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
+        <rdfs:label>mapping [0.05..0.2) -&gt; 4 (Acceptable)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-ba1f04e3-6995-41a6-9047-42315efef4ba -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-ba1f04e3-6995-41a6-9047-42315efef4ba">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6288,7 +7458,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-bec505f7-f19d-4dad-84a1-b3e53b616ee6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-bec505f7-f19d-4dad-84a1-b3e53b616ee6">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-472d01f3-9903-444b-8b50-2df16d6caee3"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
+        <rdfs:label>mapping [0.95..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-bfd000ce-8a58-41b3-8085-9667e6d46b07 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-bfd000ce-8a58-41b3-8085-9667e6d46b07">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6301,6 +7484,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-c235e876-e8d2-4ead-afad-3c74c519bf50 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-c235e876-e8d2-4ead-afad-3c74c519bf50">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-30e69792-9350-4a10-a3b7-881dd9e2f472"/>
@@ -6311,6 +7495,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-c2b6f238-eb25-4238-9d67-cb5dff6bba42 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-c2b6f238-eb25-4238-9d67-cb5dff6bba42">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6323,6 +7508,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-c2e82941-72f4-4bd2-b61d-eed3ea3ab490 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-c2e82941-72f4-4bd2-b61d-eed3ea3ab490">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-8c7fccd9-8bf0-459a-a5d3-e7f73aa98ba8"/>
@@ -6332,7 +7518,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-c9868e7d-9d8d-470b-9262-2d31ce365967 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-c9868e7d-9d8d-470b-9262-2d31ce365967">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-bf40e3e8-8b31-4c28-8076-88d4c14c8e3b"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
+        <rdfs:label>mapping [0.2..0.65) -&gt; 3 (Minimally acceptable)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-ccb7a3d5-f958-44dd-8160-dbee61ea6044 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-ccb7a3d5-f958-44dd-8160-dbee61ea6044">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6345,6 +7544,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-cde2f154-ab90-49c9-a79d-57259442aa44 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-cde2f154-ab90-49c9-a79d-57259442aa44">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-57803898-f612-4fe5-b5c2-7fbe62828abb"/>
@@ -6355,6 +7555,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-cea779f9-a1ea-420d-ab99-c1d88485df6f -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-cea779f9-a1ea-420d-ab99-c1d88485df6f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6367,6 +7568,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-cf4f1c97-f359-41fe-b81a-c8e8bce9bb5f -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-cf4f1c97-f359-41fe-b81a-c8e8bce9bb5f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-8532f7cf-4cae-48f3-811e-06a37cc17705"/>
@@ -6377,6 +7579,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-cf715296-204e-4410-84ab-72b48328f425 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-cf715296-204e-4410-84ab-72b48328f425">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6389,6 +7592,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-d1d550a8-e6b5-4d59-bc30-62296367d2d2 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-d1d550a8-e6b5-4d59-bc30-62296367d2d2">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-cc43f9c6-a6ef-43bb-9086-34fa54077e35"/>
@@ -6398,7 +7602,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-d5c84d56-0aa7-4046-aca0-cfad9d2340bc -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-d5c84d56-0aa7-4046-aca0-cfad9d2340bc">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-7ec0590f-e02b-4bd0-bd52-477de8c2789c"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
+        <rdfs:label>mapping [0.25..0.97) -&gt; 2 (Insufficient)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-d8695c0f-8aaa-44d5-bedf-e48684b9ccaa -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-d8695c0f-8aaa-44d5-bedf-e48684b9ccaa">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6411,6 +7628,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-d8c5285d-47f5-4f4f-a0da-b51b23a28f4f -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-d8c5285d-47f5-4f4f-a0da-b51b23a28f4f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-e51bd859-851e-4e09-8ce3-c99408beecaa"/>
@@ -6421,6 +7639,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-dcceba48-bcfe-4036-9dc1-1c2b4dfbc5fc -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-dcceba48-bcfe-4036-9dc1-1c2b4dfbc5fc">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6433,6 +7652,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-e144669f-c130-442a-8842-3247a6469fd4 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-e144669f-c130-442a-8842-3247a6469fd4">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-d725d6bf-c3e3-4319-87e1-aec958a2e4ea"/>
@@ -6443,6 +7663,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-e3499418-590e-4e2f-961d-c08249c9817c -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-e3499418-590e-4e2f-961d-c08249c9817c">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6455,6 +7676,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-e455f66f-e9fc-47c6-91b8-f86d880989ad -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-e455f66f-e9fc-47c6-91b8-f86d880989ad">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-dfb21020-a3f3-4322-8cea-c7e4a99df3fe"/>
@@ -6465,6 +7687,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-e7e8d0e9-3da9-4827-a158-efb58ab3d1dc -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-e7e8d0e9-3da9-4827-a158-efb58ab3d1dc">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6477,6 +7700,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-eb3c4d5f-6eb7-4bab-845d-5ab765d32cf5 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-eb3c4d5f-6eb7-4bab-845d-5ab765d32cf5">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-27b9aa3b-a507-4d69-b558-9015c583bb7b"/>
@@ -6486,7 +7710,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-ecc74557-9550-4862-8c9d-523bca2ce535 -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-ecc74557-9550-4862-8c9d-523bca2ce535">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-e11198cd-35be-40a4-987c-88aaec125d81"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
+        <rdfs:label>mapping [0.0..0.2) -&gt; 1 (Not acceptable)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-ef3c1976-a1c7-4343-9191-a5bc836a52c1 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-ef3c1976-a1c7-4343-9191-a5bc836a52c1">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6499,6 +7736,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-ef6c0430-8001-4dd3-93cb-e4a2465bbb4d -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-ef6c0430-8001-4dd3-93cb-e4a2465bbb4d">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-4b0934f7-1ab9-4529-80cb-7c43586b4272"/>
@@ -6509,6 +7747,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-f0c97eed-4140-4ae5-b3f8-a67798b30938 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-f0c97eed-4140-4ae5-b3f8-a67798b30938">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6521,6 +7760,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-f0d722ec-b28d-4c37-9c37-324847b10d26 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-f0d722ec-b28d-4c37-9c37-324847b10d26">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c8d8e3fe-2902-488f-8a45-650345748f3d"/>
@@ -6530,7 +7770,20 @@
     
 
 
+    <!-- https://purl.org/oquo#scalePointMapping-f3ed1537-5252-4ffa-9163-695e70b327cb -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-f3ed1537-5252-4ffa-9163-695e70b327cb">
+        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-d5018ee5-b8a0-4634-8ab2-2e9ef5eb4201"/>
+        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
+        <rdfs:label>mapping [1.03..1.5) -&gt; 4 (Acceptable)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.org/oquo#scalePointMapping-f9bd9b10-8073-4cff-a21b-92b6aa6d2eda -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-f9bd9b10-8073-4cff-a21b-92b6aa6d2eda">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6543,6 +7796,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-fb9490f8-7068-45cf-86ae-1ae0c78c0ec4 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-fb9490f8-7068-45cf-86ae-1ae0c78c0ec4">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-8729b61c-e845-4d9a-a10b-f5d46398d63c"/>
@@ -6553,6 +7807,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-fcfe96cc-42dc-4e57-a5e3-96196674b04a -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-fcfe96cc-42dc-4e57-a5e3-96196674b04a">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6565,6 +7820,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-fd398667-0ffe-45e0-8d81-0bcd330208cb -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-fd398667-0ffe-45e0-8d81-0bcd330208cb">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-574da3e6-f440-4146-9e8c-8363f3890cea"/>
@@ -6575,6 +7831,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-fd75d338-e2e8-4fe1-a8dd-e9873fffdf0f -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-fd75d338-e2e8-4fe1-a8dd-e9873fffdf0f">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6587,6 +7844,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-fde8a2da-66f0-48c4-bd83-6a4d1f771657 -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-fde8a2da-66f0-48c4-bd83-6a4d1f771657">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-1444fab3-28af-4efb-b214-fab21f80e0cd"/>
@@ -6598,6 +7856,7 @@
 
     <!-- https://purl.org/oquo#scalePointMapping-ff31b7b7-1f7c-4302-9c0b-3eefdbe6c06c -->
 
+
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-ff31b7b7-1f7c-4302-9c0b-3eefdbe6c06c">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
         <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-15413506-2137-4091-9d94-d8b3724da5ae"/>
@@ -6608,6 +7867,7 @@
 
 
     <!-- https://purl.org/oquo#scalePointMapping-ffd9ff76-9c86-4d31-9ec0-8e894072e837 -->
+
 
     <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-ffd9ff76-9c86-4d31-9ec0-8e894072e837">
         <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
@@ -6625,6 +7885,7 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+
 
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
@@ -6701,401 +7962,10 @@
             <rdf:Description rdf:about="https://purl.org/oquo#SystematicNamingIssue"/>
         </owl:members>
     </rdf:Description>
-
-
-    <!-- https://purl.org/oquo#interval-e90819b5-72ae-4fb3-966c-56003ea32796 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-e90819b5-72ae-4fb3-966c-56003ea32796">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.04)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-654b9c2c-c89a-451f-b3b1-d971c640515a -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-654b9c2c-c89a-451f-b3b1-d971c640515a">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalUpperValue>
-        <rdfs:label>interval [0.04..0.15)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-ce61df4e-5159-47c2-a883-d6d703c63cae -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-ce61df4e-5159-47c2-a883-d6d703c63cae">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.03)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-cf3c415f-2201-459e-a764-2abd61543c31 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-cf3c415f-2201-459e-a764-2abd61543c31">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.09</hasIntervalUpperValue>
-        <rdfs:label>interval [0.03..0.09)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-eae24479-edfa-4b48-badf-b39c1cad52d4 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-eae24479-edfa-4b48-badf-b39c1cad52d4">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.2)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-d8d60a91-66fc-4c18-97bc-5001745a9c93 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-d8d60a91-66fc-4c18-97bc-5001745a9c93">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</hasIntervalUpperValue>
-        <rdfs:label>interval [0.2..0.6)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-fa9cdb73-1f9d-4c90-9488-f2611ba1abef -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fa9cdb73-1f9d-4c90-9488-f2611ba1abef">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
-        <rdfs:label>interval [0.02..0.05)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-c997c670-a16c-4f51-a25e-32dca0685dee -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c997c670-a16c-4f51-a25e-32dca0685dee">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.02)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-dd39fca4-34c7-4c99-9998-92be06ac4ec6 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-dd39fca4-34c7-4c99-9998-92be06ac4ec6">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.01)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-c07eb5af-65ce-47e1-a79f-699ea83b3732 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c07eb5af-65ce-47e1-a79f-699ea83b3732">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</hasIntervalUpperValue>
-        <rdfs:label>interval [0.01..0.03)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-68e8b2ae-da8d-4342-a39b-07487f6708ac -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-68e8b2ae-da8d-4342-a39b-07487f6708ac">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.1</hasIntervalUpperValue>
-        <rdfs:label>interval [0.04..0.1)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-c8d8e3fe-2902-488f-8a45-650345748f3d -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c8d8e3fe-2902-488f-8a45-650345748f3d">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.04)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-c5fb2b37-efc0-4314-93ff-430a46315cf3 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c5fb2b37-efc0-4314-93ff-430a46315cf3">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.02)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-8532f7cf-4cae-48f3-811e-06a37cc17705 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-8532f7cf-4cae-48f3-811e-06a37cc17705">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.07</hasIntervalUpperValue>
-        <rdfs:label>interval [0.02..0.07)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-fce00a08-f8f2-4993-a161-4b16c1ab9b7e -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fce00a08-f8f2-4993-a161-4b16c1ab9b7e">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
-        <rdfs:label>interval [0.02..0.05)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-7a61fd65-fa82-44ee-9377-54b637c72c4b -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-7a61fd65-fa82-44ee-9377-54b637c72c4b">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.02)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-aea60a8d-3b17-460c-a412-4f77ab63987b -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-aea60a8d-3b17-460c-a412-4f77ab63987b">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.02)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-fc839b23-44c1-49c2-a1e8-6e813bc329c5 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fc839b23-44c1-49c2-a1e8-6e813bc329c5">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
-        <rdfs:label>interval [0.02..0.05)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-0343ca96-e8d2-44e0-b3dd-05b5e76cac9c -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-0343ca96-e8d2-44e0-b3dd-05b5e76cac9c">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasIntervalUpperValue>
-        <rdfs:label>interval [0.01..0.04)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-1444fab3-28af-4efb-b214-fab21f80e0cd -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-1444fab3-28af-4efb-b214-fab21f80e0cd">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.01)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-b1c4c8a3-8b50-495a-a442-61a344b10adf -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-b1c4c8a3-8b50-495a-a442-61a344b10adf">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.05)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-eba79572-f1e5-49fc-887c-86d07c8ab0b5 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-eba79572-f1e5-49fc-887c-86d07c8ab0b5">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</hasIntervalUpperValue>
-        <rdfs:label>interval [0.05..0.15)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/oquo#scaleConversion-1482099b-08c4-4911-8737-b23f5d2547d0 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scaleConversion-1482099b-08c4-4911-8737-b23f5d2547d0">
-        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
-        <hasInputScale rdf:resource="https://purl.org/oquo#DataPropertiesWithNoSynonymMetricScale"/>
-        <hasOutputScale rdf:resource="https://purl.org/oquo#OquareFiveCategoriesScale"/>
-        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-bec505f7-f19d-4dad-84a1-b3e53b616ee6"/>
-        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-6391d745-d288-418b-aac7-d367bffb2e52"/>
-        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-c9868e7d-9d8d-470b-9262-2d31ce365967"/>
-        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-b67c940f-9afc-4795-86cd-1b58a45de176"/>
-        <hasScalePointMapping rdf:resource="https://purl.org/oquo#scalePointMapping-6ea3befe-7d52-4b9a-94c9-ba484b77474a"/>
-        <rdfs:comment>The definition of the conversion between the scales &lt;https://purl.org/oquo#DataPropertiesWithNoSynonymMetricScale&gt; and &lt;https://purl.org/oquo#OquareFiveCategoriesScale&gt;.</rdfs:comment>
-        <rdfs:label>data properties with no synonym metric scale to oquare five categories scale conversion</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-472d01f3-9903-444b-8b50-2df16d6caee3 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-472d01f3-9903-444b-8b50-2df16d6caee3">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">INF</hasIntervalUpperValue>
-        <rdfs:label>interval [0.95..Infinity)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-c7fb14fb-d278-41c2-828f-2647be3cf745 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-c7fb14fb-d278-41c2-828f-2647be3cf745">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.65</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</hasIntervalUpperValue>
-        <rdfs:label>interval [0.65..0.95)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-bf40e3e8-8b31-4c28-8076-88d4c14c8e3b -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-bf40e3e8-8b31-4c28-8076-88d4c14c8e3b">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.65</hasIntervalUpperValue>
-        <rdfs:label>interval [0.2..0.65)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-5b6f0ddb-8898-4c1c-baf0-30d62f04e7eb -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-5b6f0ddb-8898-4c1c-baf0-30d62f04e7eb">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</hasIntervalUpperValue>
-        <rdfs:label>interval [0.05..0.2)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#interval-fb426b8e-e439-43ad-87da-c4e56bc49661 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#interval-fb426b8e-e439-43ad-87da-c4e56bc49661">
-        <rdf:type rdf:resource="https://purl.org/oquo#Interval"/>
-        <hasIntervalLowerBoundType rdf:resource="https://purl.org/oquo#ClosedIntervalBound"/>
-        <hasIntervalUpperBoundType rdf:resource="https://purl.org/oquo#OpenIntervalBound"/>
-        <hasIntervalLowerValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasIntervalLowerValue>
-        <hasIntervalUpperValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</hasIntervalUpperValue>
-        <rdfs:label>interval [0.0..0.05)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#scalePointMapping-bec505f7-f19d-4dad-84a1-b3e53b616ee6 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-bec505f7-f19d-4dad-84a1-b3e53b616ee6">
-        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-472d01f3-9903-444b-8b50-2df16d6caee3"/>
-        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory1"/>
-        <rdfs:label>mapping [0.95..Infinity) -&gt; 1 (Not acceptable)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#scalePointMapping-6391d745-d288-418b-aac7-d367bffb2e52 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-6391d745-d288-418b-aac7-d367bffb2e52">
-        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-c7fb14fb-d278-41c2-828f-2647be3cf745"/>
-        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory2"/>
-        <rdfs:label>mapping [0.65..0.95) -&gt; 2 (Insufficient)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#scalePointMapping-c9868e7d-9d8d-470b-9262-2d31ce365967 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-c9868e7d-9d8d-470b-9262-2d31ce365967">
-        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-bf40e3e8-8b31-4c28-8076-88d4c14c8e3b"/>
-        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory3"/>
-        <rdfs:label>mapping [0.2..0.65) -&gt; 3 (Minimally acceptable)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#scalePointMapping-b67c940f-9afc-4795-86cd-1b58a45de176 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-b67c940f-9afc-4795-86cd-1b58a45de176">
-        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-5b6f0ddb-8898-4c1c-baf0-30d62f04e7eb"/>
-        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory4"/>
-        <rdfs:label>mapping [0.05..0.2) -&gt; 4 (Acceptable)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-    <!-- https://purl.org/oquo#scalePointMapping-6ea3befe-7d52-4b9a-94c9-ba484b77474a -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/oquo#scalePointMapping-6ea3befe-7d52-4b9a-94c9-ba484b77474a">
-        <rdf:type rdf:resource="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
-        <hasInputCardinalInterval rdf:resource="https://purl.org/oquo#interval-fb426b8e-e439-43ad-87da-c4e56bc49661"/>
-        <hasOutputScaleCategory rdf:resource="https://purl.org/oquo#OquareCategory5"/>
-        <rdfs:label>mapping [0.0..0.05) -&gt; 5 (Exceeds the requirements)</rdfs:label>
-    </owl:NamedIndividual>
-    
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 5.1.10.2019-03-12T22:31:15Z) https://github.com/owlcs/owlapi/ -->
+
 
