@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>es.um.dis.tecnomod</groupId>
 	<artifactId>huron</artifactId>
-	<version>0.0.11</version>
+	<version>0.0.12-SNAPSHOT</version>
 
 	<properties>
 		<commons-cli.version>1.4</commons-cli.version>
@@ -17,7 +17,7 @@
 		<jena.version>3.17.0</jena.version>
 		<joinery-dataframe.version>1.10</joinery-dataframe.version>
 		<tablesaw.version>0.43.1</tablesaw.version>
-		<oquo-instance-creator.version>0.0.4</oquo-instance-creator.version>
+		<oquo-instance-creator.version>0.0.5</oquo-instance-creator.version>
 	</properties>
 	<build>
 		<plugins>
@@ -95,7 +95,7 @@
 			<artifactId>oquo-instance-creator</artifactId>
 			<version>${oquo-instance-creator.version}</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/commons-cli/commons-cli -->
 		<dependency>
 			<groupId>commons-cli</groupId>
@@ -171,7 +171,7 @@
 		<profile>
 			<id>java17</id>
 			<activation>
-				<activeByDefault>false</activeByDefault>
+				<activeByDefault>true</activeByDefault>
 			</activation>
 			<properties>
 				<profile.name>java17</profile.name>
@@ -182,7 +182,7 @@
 		<profile>
 			<id>java8</id>
 			<activation>
-				<activeByDefault>true</activeByDefault>
+				<activeByDefault>false</activeByDefault>
 			</activation>
 			<properties>
 				<profile.name>java8</profile.name>

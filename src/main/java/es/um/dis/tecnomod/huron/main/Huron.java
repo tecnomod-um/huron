@@ -67,15 +67,16 @@ import es.um.dis.tecnomod.huron.result_model.SummaryRDFResultModel;
 import es.um.dis.tecnomod.huron.result_model.WideTSVResultModel;
 import es.um.dis.tecnomod.huron.tasks.MetricCalculationTask;
 import es.um.dis.tecnomod.huron.tasks.MetricCalculationTaskResult;
+import es.um.dis.tecnomod.huron.utils.PropertiesFileParser;
 
 /**
  * The Class Main.
  */
 public class Huron {
-	
+
 	/** The Constant LOGGER. */
 	private final static Logger LOGGER = Logger.getLogger(Huron.class.getName());
-	
+
 	/**
 	 * The main method.
 	 *
@@ -92,22 +93,27 @@ public class Huron {
 		File detailedRdfOutput = cmd.getOptionValue("output-detailed-rdf", null) != null ? new File(cmd.getOptionValue("output-detailed-rdf")) : null;
 		File summaryRdfOutput = cmd.getOptionValue("output-summary-rdf", null) != null ? new File(cmd.getOptionValue("output-summary-rdf")) : null;
 		File detailedFilesFolder = cmd.getOptionValue("detailed-files", null) != null ? new File(cmd.getOptionValue("detailed-files")) : null;
+		File propertiesFile = cmd.getOptionValue("properties-file", null) != null ? new File(cmd.getOptionValue("properties-file")) : null;
 		int threads = Integer.parseInt(cmd.getOptionValue('t', "1"));
 		//boolean includeDetailedFiles = cmd.hasOption('v');
 		long timeout = Long.parseLong(cmd.getOptionValue('q', "-1"));
 		boolean includeImports = cmd.hasOption("imports");
-		
-		
-		
+
+
+
 		if (!inputFile.exists()) {
 			LOGGER.log(Level.SEVERE, String.format("'%s' not found.", args[0]));
 			return;
 		}
-		
-		
-		
+
+
+
 		Config config = new Config();
 		config.setImports(Imports.fromBoolean(includeImports));
+		if(propertiesFile != null) {
+			config.setPropertiesByTopic(PropertiesFileParser.parse(propertiesFile));
+		}
+
 		if (outputFileLong != null) {
 			config.addResultModel(new LongTSVResultModel(outputFileLong));
 		}
@@ -120,12 +126,12 @@ public class Huron {
 		if (summaryRdfOutput != null) {
 			config.addResultModel(new SummaryRDFResultModel(summaryRdfOutput));
 		}
-		
+
 		if (detailedFilesFolder != null) {
 			config.addResultModel(new DetailedTSVResultModel(detailedFilesFolder));
 		}
-		
-		
+
+
 		List<File> ontologyFiles = new ArrayList<File>();
 		if (inputFile.isFile()) {
 			ontologyFiles.add(inputFile);
@@ -174,12 +180,12 @@ public class Huron {
 			}
 		}
 		executor.shutdown();
-		
+
 		for (ResultModelInterface exporter : config.getResultModels()) {
 			exporter.export();
 		}
 	}
-	
+
 	/**
 	 * Gets the metric calculation tasks.
 	 *
@@ -197,7 +203,7 @@ public class Huron {
 	}
 
 
-	
+
 	/**
 	 * Generate options.
 	 *
@@ -206,7 +212,7 @@ public class Huron {
 	 */
 	private static CommandLine generateOptions(String[] args){
 		Options options = new Options();
-		
+
 		Option input = new Option("i", "input", true, "input owl file path, or folder containing owl files.");
         input.setRequired(true);
         options.addOption(input);
@@ -214,39 +220,43 @@ public class Huron {
         Option outputLong = new Option(null, "output-long", true, "output tsv file with the metrics in long format with the columns 'ontology', 'metric' and 'value'");
         outputLong.setRequired(false);
         options.addOption(outputLong);
-        
+
         Option outputWide = new Option(null, "output-wide", true, "output tsv file with the metrics in wide format, where the metrics are in different columns");
         outputWide.setRequired(false);
         options.addOption(outputWide);
-        
+
         Option threads = new Option("t", "threads", true, "number of threads");
         threads.setRequired(false);
         options.addOption(threads);
-        
+
         Option logLevel = new Option(null, "log-level", true, "log level (SEVERE|WARNING|INFO|CONFIG|FINE|FINER|FINEST|ALL )");
         logLevel.setRequired(false);
         options.addOption(logLevel);
-        
+
         Option generateDetailedFiles = new Option(null, "detailed-files", true, "Generate a report for each metric in the folder passed as argument.");
         generateDetailedFiles.setRequired(false);
         options.addOption(generateDetailedFiles);
-        
+
         Option timeout = new Option(null, "timeout", true, "Timeout in minutes for each task");
         timeout.setRequired(false);
         options.addOption(timeout);
-        
+
         Option importOption = new Option(null, "imports", false, "Consider imported entities from external ontologies (import clause) when calculating the metrics.");
         importOption.setRequired(false);
         options.addOption(importOption);
-        
+
         Option detailedRdfOutput = new Option(null, "output-detailed-rdf", true, "Output results in RDF in the specified file, including information about all the entities of the ontology.");
         detailedRdfOutput.setRequired(false);
         options.addOption(detailedRdfOutput);
-        
+
         Option summaryRdfOutput = new Option(null, "output-summary-rdf", true, "Output results in RDF in the specified file, skipping information about ontology entities.");
         summaryRdfOutput.setRequired(false);
         options.addOption(summaryRdfOutput);
-        
+
+        Option propertiesFile = new Option(null, "properties-file", true, "JSON file indicating which properties have to be considered when computing names, descriptions and synonyms.");
+        summaryRdfOutput.setRequired(false);
+        options.addOption(propertiesFile);
+
         CommandLineParser parser = new DefaultParser();
         HelpFormatter formatter = new HelpFormatter();
         CommandLine cmd = null;;
@@ -257,10 +267,10 @@ public class Huron {
 			formatter.printHelp("metrics", options);
 			System.exit(1);
 		}
-        
+
         return cmd;
 	}
-	
+
 	/**
 	 * Sets the log level.
 	 *
@@ -270,7 +280,7 @@ public class Huron {
 		Logger root = Logger.getLogger("");
 		root.setLevel(Level.parse(level));
 	}
-	
+
 	/**
 	 * Gets the metrics to calculate.
 	 *
@@ -314,7 +324,7 @@ public class Huron {
 		metrics.add(new AnnotationPropertiesWithNoNameMetric(config));
 		metrics.add(new AnnotationPropertiesWithNoDescriptionMetric(config));
 		metrics.add(new AnnotationPropertiesWithNoSynonymMetric(config));
-		
+
 		LOGGER.log(Level.INFO, "Metrics obtained");
 		return metrics;
 	}

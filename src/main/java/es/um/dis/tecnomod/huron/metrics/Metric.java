@@ -25,17 +25,17 @@ import es.um.dis.tecnomod.oquo.utils.ScaleTypes;
  * The Class Metric.
  */
 public abstract class Metric {
-	
+
 	/** The config */
 	private Config config;
-	
+
 	/** The ontology. */
 	private OWLOntology ontology;
-	
+
 	/** The ontology path. */
 	private String ontologyPath;
-	
-	
+
+
 	/**
 	 * Instantiates a new metric.
 	 */
@@ -43,7 +43,7 @@ public abstract class Metric {
 		super();
 		this.config = new Config();
 	}
-	
+
 	/**
 	 * Instantiates a new metric.
 	 *
@@ -52,7 +52,7 @@ public abstract class Metric {
 	public Metric(Config config) {
 		this.config = config;
 	}
-	
+
 	/**
 	 * Calculate the value of the metric and the RDF with information
 	 * @return
@@ -77,7 +77,7 @@ public abstract class Metric {
 			throws OWLOntologyCreationException, FileNotFoundException, IOException, Exception {
 		return this.calculate().getMetricValue();
 	}
-	
+
 
 
 	/**
@@ -86,8 +86,8 @@ public abstract class Metric {
 	 * @return the name
 	 */
 	public abstract String getName();
-	
-	
+
+
 	/**
 	 * Gets the IRI.
 	 * @return the IRI
@@ -144,13 +144,13 @@ public abstract class Metric {
 	public String getOntologyPath() {
 		return ontologyPath;
 	}
-	
+
 	/**
 	 * Get the IRI of the property observed by the metric
 	 * @return
 	 */
 	public abstract String getObservablePropertyIRI();
-	
+
 	/**
 	 * Get the IRI of the instrument used to compute the metric
 	 * @return
@@ -158,7 +158,7 @@ public abstract class Metric {
 	public String getInstrumentIRI() {
 		return RDFUtils.HURON;
 	}
-	
+
 	/**
 	 * Gets the scale IRI.
 	 *
@@ -167,13 +167,13 @@ public abstract class Metric {
 	public String getScaleIRI() {
 		return this.getIRI() + "Scale";
 	}
-	
+
 	public String getScaleTypeIRI() {
 		return ScaleTypes.RAW_SCALE;
 	}
-	
+
 	public abstract String getRankingFunctionIRI();
-	
+
 	/**
 	 * Get the unit of measure used by the metric
 	 * @return
@@ -194,14 +194,14 @@ public abstract class Metric {
 	public void setConfig(Config config) {
 		this.config = config;
 	}
-	
+
 	public void notifyExporterListeners(String sourceDocumentIRI, String featureOfInterestIRI, String featureOfInterestTypeIRI, Object value, Calendar timestamp, List<IssueInfoDTO> issues) {
 		ObservationInfoDTO observationInfo = getObservationInfo(sourceDocumentIRI, featureOfInterestIRI, featureOfInterestTypeIRI, value, timestamp, issues);
 		for (ResultModelInterface resultModel : this.getConfig().getResultModels()) {
 			resultModel.addObservation(observationInfo);
 		}
 	}
-	
+
 	public void notifyExporterListeners(String sourceDocumentIRI, String featureOfInterestIRI, String featureOfInterestTypeIRI, Object value, Calendar timestamp, IssueInfoDTO issue) {
 		List<IssueInfoDTO> issues = new ArrayList<>();
 		if (issue != null) {
@@ -209,7 +209,7 @@ public abstract class Metric {
 		}
 		this.notifyExporterListeners(sourceDocumentIRI, featureOfInterestIRI, featureOfInterestTypeIRI, value, timestamp, issues);
 	}
-	
+
 	protected ObservationInfoDTO getObservationInfo(String sourceDocumentIRI, String featureOfInterestIRI, String featureOfInterestTypeIRI, Object value, Calendar timestamp, List<IssueInfoDTO> issues) {
 		ObservationInfoDTO observationInfo = new ObservationInfoDTO();
 		observationInfo.setSourceDocumentIRI(sourceDocumentIRI);
@@ -218,9 +218,6 @@ public abstract class Metric {
 		observationInfo.setMetricUsedIRI(this.getIRI());
 		observationInfo.setValue(value);
 		observationInfo.setTimestamp(timestamp);
-		observationInfo.setObservablePropertyIRI(this.getObservablePropertyIRI());
-		observationInfo.setInstrumentIRI(this.getInstrumentIRI());
-		observationInfo.setUnitOfMeasureIRI(this.getUnitOfMeasureIRI());
 		observationInfo.setScaleIRI(this.getScaleIRI());
 		observationInfo.setScaleTypeIRI(this.getScaleTypeIRI());
 		observationInfo.setRankingFunctionIRI(this.getRankingFunctionIRI());
