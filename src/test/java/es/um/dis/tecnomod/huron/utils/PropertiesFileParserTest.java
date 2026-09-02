@@ -15,8 +15,46 @@ public class PropertiesFileParserTest {
 	private static final String PROPERTIES_FILE_PATH = "/customPropertiesFile.json";
 
 	@Test
-	public void test() {
+	public void testInputString() {
 		Map<String, List<IRI>> x = PropertiesFileParser.parse(this.getClass().getResourceAsStream(PROPERTIES_FILE_PATH));
+		assertNotNull(x);
+		assertEquals(3, x.keySet().size());
+		assertTrue(x.containsKey("names"));
+		assertTrue(x.containsKey("synonyms"));
+		assertTrue(x.containsKey("descriptions"));
+		assertTrue(x.get("names").contains(IRI.create("http://www.w3.org/2004/02/skos/core#prefLabel")));
+		assertTrue(x.get("synonyms").contains(IRI.create("http://www.w3.org/2004/02/skos/core#altLabel")));
+		assertTrue(x.get("descriptions").contains(IRI.create("http://purl.obolibrary.org/obo/IAO_0000115")));
+
+		assertFalse(x.get("names").contains(IRI.create("http://www.w3.org/2004/02/skos/core#altLabel")));
+		assertFalse(x.get("synonyms").contains(IRI.create("http://www.w3.org/2004/02/skos/core#prefLabel")));
+		assertFalse(x.get("descriptions").contains(IRI.create("http://www.w3.org/2004/02/skos/core#prefLabel")));
+
+		assertEquals(3, x.get("names").size());
+		assertEquals(3, x.get("synonyms").size());
+		assertEquals(3, x.get("descriptions").size());
+	}
+
+	@Test
+	public void testString() {
+		String jsonContent = "{\n"
+				+ "  \"names\": [\n"
+				+ "    \"http://www.w3.org/2004/02/skos/core#prefLabel\",\n"
+				+ "    \"http://www.w3.org/2000/01/rdf-schema#label\",\n"
+				+ "    \"http://schema.org/name\"\n"
+				+ "  ],\n"
+				+ "  \"descriptions\": [\n"
+				+ "    \"http://purl.obolibrary.org/obo/IAO_0000115\",\n"
+				+ "    \"http://www.w3.org/2004/02/skos/core#definition\",\n"
+				+ "    \"http://www.w3.org/2000/01/rdf-schema#comment\"\n"
+				+ "  ],\n"
+				+ "  \"synonyms\": [\n"
+				+ "    \"http://www.w3.org/2004/02/skos/core#altLabel\",\n"
+				+ "    \"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym\",\n"
+				+ "    \"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym\"\n"
+				+ "  ]\n"
+				+ "}";
+		Map<String, List<IRI>> x = PropertiesFileParser.parse(jsonContent);
 		assertNotNull(x);
 		assertEquals(3, x.keySet().size());
 		assertTrue(x.containsKey("names"));

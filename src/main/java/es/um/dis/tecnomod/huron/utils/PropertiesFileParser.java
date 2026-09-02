@@ -5,11 +5,13 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.io.IOUtils;
 import org.semanticweb.owlapi.model.IRI;
 
 import com.fasterxml.jackson.databind.JsonNode;
@@ -60,6 +62,14 @@ public class PropertiesFileParser {
         try (InputStream inputStream = new FileInputStream(file)) {
             return parse(inputStream);
         } catch (IOException e) {
+            throw new RuntimeException("Error closing properties file.", e);
+        }
+    }
+
+    public static  Map<String, List<IRI>> parse(String jsonContent) {
+    	try (InputStream inputStream = IOUtils.toInputStream(jsonContent, StandardCharsets.UTF_8)) {
+    		return parse(inputStream);
+    	} catch (IOException e) {
             throw new RuntimeException("Error closing properties file.", e);
         }
     }

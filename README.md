@@ -5,7 +5,7 @@
 
 # Usage
 ## Command
-`java -jar huron.jar --input <arg> [--output-long <arg>] [--output-wide <arg>] [--output-rdf <arg>] [--detailed-files <arg>] [--imports] [--threads <arg>]`
+`java -jar huron.jar --input <arg> [--output-long <arg>] [--output-wide <arg>] [--output-detailed-rdf <arg>] [--output-summary-rdf <arg>] [--detailed-files <arg>] [--imports] [--properties-file <arg>] [--threads <arg>]`
 
 Where
 
@@ -17,6 +17,7 @@ Where
 - **--detailed-files** Generate a report for each metric in the folder passed as argument.
 - **--threads** Number of threads to use in parallel.
 - **--imports** Consider imported entities from external ontologies (import clause) when calculating the metrics.
+- **--properties-file** JSON file indicating which properties have to be considered when computing names, descriptions and synonyms. If not specified, [this file](src/main/resources/defaultPropertiesByTopic.json) is used as default. 
 
 ## Dependencies
 If you want to test, modify or compile the application from the source code, you will need access to the **ontoenrich-core** library, used by the application to perform the analysis of lexical regularities. The source code of this library is not available yet, but it is supported by several publications:
