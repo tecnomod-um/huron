@@ -4,21 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>es.um.dis.tecnomod</groupId>
 	<artifactId>huron</artifactId>
-	<version>0.0.13</version>
+	<version>0.0.14</version>
 
 	<properties>
 		<commons-cli.version>1.4</commons-cli.version>
-		<graphlib.version>0.0.3</graphlib.version>
-		<ontoenrich-core.version>2.0.0-SNAPSHOT</ontoenrich-core.version>
-		<elk.version>0.5.0</elk.version>
-		<commons-collections4.version>4.4</commons-collections4.version>
-		<owlapi.version>5.1.10</owlapi.version>
 		<main.class>es.um.dis.tecnomod.huron.main.Huron</main.class>
-		<jena.version>3.17.0</jena.version>
-		<joinery-dataframe.version>1.10</joinery-dataframe.version>
-		<tablesaw.version>0.43.1</tablesaw.version>
-		<oquo-instance-creator.version>0.0.5</oquo-instance-creator.version>
-		<huron-lib.version>1.0.0</huron-lib.version>
+		<huron-lib.version>1.0.1</huron-lib.version>
 	</properties>
 	<build>
 		<plugins>
