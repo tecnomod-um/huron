@@ -1,38 +1,44 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://purl.org/oquo-huron#"
      xml:base="https://purl.org/oquo-huron"
-     xmlns:oquo="https://purl.org/oquo#"
-     xmlns:oquo-oquare-qm="https://purl.org/oquo-oquare-qm#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:om-1="http://www.wurvoc.org/vocabularies/om-1.8/"
+     xmlns:oquo="https://purl.org/oquo#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdf1="http://www.cropontology.org/rdf/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="http://schema.org/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:QualityModel="http://purl.org/net/QualityModel#">
+     xmlns:QualityModel="http://purl.org/net/QualityModel#"
+     xmlns:oquo-oquare-qm="https://purl.org/oquo-oquare-qm#">
     <owl:Ontology rdf:about="https://purl.org/oquo-huron">
-        <owl:versionIRI rdf:resource="https://purl.org/oquo-huron/v2.0.0"/>
-        <owl:imports rdf:resource="https://purl.org/oquo-oquare-qm/v2.0.0"/>
-        <dc:title xml:lang="en">OQUO HURON module</dc:title>
+        <owl:versionIRI rdf:resource="https://purl.org/oquo-huron/v2.0.1"/>
+        <owl:imports rdf:resource="https://purl.org/oquo-oquare-qm"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-7558-2880"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0003-0201-3115"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0003-1857-1744"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0003-0201-3115"/>
         <dc:description xml:lang="en">OQUO module that integrates HURON (HUman Readability ONtologies), a framework for assessing the human readability of ontologies, with the OQuaRE quality model. The module defines the 34 metrics computed by HURON, which measure the names, descriptions and synonyms of classes and properties, as well as the lexical regularities and systematic naming of class labels, and associates them with the OQuaRE characteristics they measure. Each metric has its own raw scale, and the module defines the conversions of these raw scales into the OQuaRE five categories scale by means of cardinal to ordinal scale conversions. The module also defines the 17 types of issues that HURON can report, such as entities without names, descriptions or synonyms, together with recommendations to solve them.</dc:description>
+        <dc:publisher>Universidad de Murcia</dc:publisher>
+        <dc:title xml:lang="en">OQUO HURON module</dc:title>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-10</terms:created>
         <terms:license rdf:resource="https://www.gnu.org/licenses/gpl-3.0.html"/>
-        <dc:creator>Francisco Abad-Navarro</dc:creator>
-        <dc:contributor>Francisco Abad-Navarro</dc:contributor>
-        <dc:contributor>Jesualdo Tomas Fernandez-Breis</dc:contributor>
-        <dc:contributor>Catalina Martinez-Costa</dc:contributor>
-        <dc:publisher>Universidad de Murcia</dc:publisher>
         <vann:preferredNamespacePrefix>oquo-huron</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://purl.org/oquo-huron#</vann:preferredNamespaceUri>
-        <rdfs:seeAlso rdf:resource="https://github.com/tecnomod-um/huron"/>
+        <schema:codeRepository>https://github.com/tecnomod-um/huron</schema:codeRepository>
         <rdfs:seeAlso rdf:resource="http://semantics.inf.um.es/huron/"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/tecnomod-um/huron"/>
+        <foaf:homepage>http://semantics.inf.um.es/huron/</foaf:homepage>
     </owl:Ontology>
     
 
@@ -104,6 +110,30 @@
     <!-- http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale -->
 
     <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+    
+
+
+    <!-- https://purl.org/oquo#CardinalToOrdinalScaleConversion -->
+
+    <owl:Class rdf:about="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
+    
+
+
+    <!-- https://purl.org/oquo#CardinalToOrdinalScalePointMapping -->
+
+    <owl:Class rdf:about="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
+    
+
+
+    <!-- https://purl.org/oquo#Interval -->
+
+    <owl:Class rdf:about="https://purl.org/oquo#Interval"/>
+    
+
+
+    <!-- https://purl.org/oquo#RawScale -->
+
+    <owl:Class rdf:about="https://purl.org/oquo#RawScale"/>
     
 
 
@@ -187,6 +217,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of annotation properties lacking a description in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>APWND</rdf1:acronym>
         <rdfs:comment>The Percentage of annotation properties lacking a description in the ontology.</rdfs:comment>
         <rdfs:label>annotation properties with no description metric</rdfs:label>
@@ -267,6 +298,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of annotation properties lacking a name in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>APWNN</rdf1:acronym>
         <rdfs:comment>The Percentage of annotation properties lacking a name in the ontology.</rdfs:comment>
         <rdfs:label>annotation properties with no name metric</rdfs:label>
@@ -347,6 +379,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of annotation properties lacking a synonym in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>APWNS</rdf1:acronym>
         <rdfs:comment>The Percentage of annotation properties lacking a synonym in the ontology.</rdfs:comment>
         <rdfs:label>annotation properties with no synonym metric</rdfs:label>
@@ -417,18 +450,6 @@
         <skos:definition>The annotation property does not have any synonym.</skos:definition>
         <oquo:hasRecommendation>Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.</oquo:hasRecommendation>
     </owl:Class>
-    
-
-
-    <!-- https://purl.org/oquo#CardinalToOrdinalScaleConversion -->
-
-    <owl:Class rdf:about="https://purl.org/oquo#CardinalToOrdinalScaleConversion"/>
-    
-
-
-    <!-- https://purl.org/oquo#CardinalToOrdinalScalePointMapping -->
-
-    <owl:Class rdf:about="https://purl.org/oquo#CardinalToOrdinalScalePointMapping"/>
     
 
 
@@ -578,6 +599,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of classes lacking a description in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>CWND</rdf1:acronym>
         <rdfs:comment>The Percentage of classes lacking a description in the ontology.</rdfs:comment>
         <rdfs:label>classes with no description metric</rdfs:label>
@@ -658,6 +680,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of classes lacking a name in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>CWNN</rdf1:acronym>
         <rdfs:comment>The Percentage of classes lacking a name in the ontology.</rdfs:comment>
         <rdfs:label>classes with no name metric</rdfs:label>
@@ -738,16 +761,11 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of classes lacking a synonym in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>CWNS</rdf1:acronym>
         <rdfs:comment>The Percentage of classes lacking a synonym in the ontology.</rdfs:comment>
         <rdfs:label>classes with no synonym metric</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- https://purl.org/oquo-oquare-qm#ControlledVocabularyCharacteristic -->
-
-    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#ControlledVocabularyCharacteristic"/>
     
 
 
@@ -831,6 +849,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of data properties lacking a description in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>DPWND</rdf1:acronym>
         <rdfs:comment>The Percentage of data properties lacking a description in the ontology.</rdfs:comment>
         <rdfs:label>data properties with no description metric</rdfs:label>
@@ -911,6 +930,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of data properties lacking a name in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>DPWNN</rdf1:acronym>
         <rdfs:comment>The Percentage of data properties lacking a name in the ontology.</rdfs:comment>
         <rdfs:label>data properties with no name metric</rdfs:label>
@@ -991,6 +1011,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of data properties lacking a synonym in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>DPWNS</rdf1:acronym>
         <rdfs:comment>The Percentage of data properties lacking a synonym in the ontology.</rdfs:comment>
         <rdfs:label>data properties with no synonym metric</rdfs:label>
@@ -1144,6 +1165,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with annotation properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>DxAP</rdf1:acronym>
         <rdfs:comment>The total number of annotation property descriptions over the total number of annotation properties.</rdfs:comment>
         <rdfs:label>descriptions per annotation property metric</rdfs:label>
@@ -1231,6 +1253,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with classes, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>DxC</rdf1:acronym>
         <rdfs:comment>The total number of class descriptions over the total number of classes.</rdfs:comment>
         <rdfs:label>descriptions per class metric</rdfs:label>
@@ -1318,6 +1341,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with data type properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>DxDP</rdf1:acronym>
         <rdfs:comment>The total number of data property descriptions over the total number of data properties.</rdfs:comment>
         <rdfs:label>descriptions per data property metric</rdfs:label>
@@ -1405,6 +1429,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with object properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>DxOP</rdf1:acronym>
         <rdfs:comment>The total number of object property descriptions over the total number of object properties.</rdfs:comment>
         <rdfs:label>descriptions per object property metric</rdfs:label>
@@ -1439,22 +1464,11 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>DxP</rdf1:acronym>
         <rdfs:comment>Number of descriptions per property in the ontology, considering object, datatype, and annotation properties.</rdfs:comment>
         <rdfs:label>descriptions per property metric</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- https://purl.org/oquo-oquare-qm#EaseOfUseCharacteristic -->
-
-    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#EaseOfUseCharacteristic"/>
-    
-
-
-    <!-- https://purl.org/oquo-oquare-qm#EfficiencyInUseCharacteristic -->
-
-    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#EfficiencyInUseCharacteristic"/>
     
 
 
@@ -1488,36 +1502,6 @@
         <skos:definition>The entity does not have any synonym.</skos:definition>
         <oquo:hasRecommendation>Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.</oquo:hasRecommendation>
     </owl:Class>
-    
-
-
-    <!-- https://purl.org/oquo-oquare-qm#HelpfulnessCharacteristic -->
-
-    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#HelpfulnessCharacteristic"/>
-    
-
-
-    <!-- https://purl.org/oquo-oquare-qm#IndexingAndLinkingCharacteristic -->
-
-    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#IndexingAndLinkingCharacteristic"/>
-    
-
-
-    <!-- https://purl.org/oquo#Interval -->
-
-    <owl:Class rdf:about="https://purl.org/oquo#Interval"/>
-    
-
-
-    <!-- https://purl.org/oquo-oquare-qm#KnowledgeReuseCharacteristic -->
-
-    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#KnowledgeReuseCharacteristic"/>
-    
-
-
-    <!-- https://purl.org/oquo-oquare-qm#LearnabilityCharacteristic -->
-
-    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#LearnabilityCharacteristic"/>
     
 
 
@@ -1573,6 +1557,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric measures the proportion between the total number of lexical regularities appearing in the ontology and the total number of classes. This metric can measure whether the ontology is using genus-differentia naming style.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>LRsxC</rdf1:acronym>
         <rdfs:comment>The number of lexical regularities appearing in the ontology over the number of classes.</rdfs:comment>
         <rdfs:label>lexical regularities per class metric</rdfs:label>
@@ -1632,6 +1617,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The percentage of classes in the ontology that are LR classes. In other words, the percentage of classes whose complete name is a lexical regularity.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>LRClassPCT</rdf1:acronym>
         <rdfs:comment>The percentage of classes in the ontology that are LR classes.</rdfs:comment>
         <rdfs:label>lexical regularity class percentage metric</rdfs:label>
@@ -1702,6 +1688,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric is related to the design principle of the same name, which we interpret as follows: what is expressed in natural language for humans should be expressed as logical axioms for the machine. It is calculated as the ratio in which an LR class is semantically related to other classes exhibiting its lexical regularity. Here, two classes are semantically related if there exist a path of an arbitrary length between them through the axioms in the ontology (i.e. subclass of, equivalency, or domain/range property). For computational reasons, we limited the length of the path between classes up to 5 steps; thus, classes semantically related between them through longer paths will be considered as not semantically related. In this case, positive cases are classes exhibiting a lexical regularity and that are semantically linked with the corresponding LR class. Negative cases are classes exhibiting a lexical regularity and that are not semantically linked with the corresponding LR class. The value of the metric is calculated by dividing the positive cases by the total number of cases. This metric is calculated for each LR class. The final value of the metric for an ontology is calculated as the sum of all the positive cases divided by the sum of all the positive and negative cases obtained by each LR class in the ontology. The value is in the range [0, 1], the highest values representing the best values for the metric.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>LSLD</rdf1:acronym>
         <rdfs:comment>The degree in which LR classes are semantically linked to the classes exhibiting the corresponding lexical regularity.</rdfs:comment>
         <rdfs:label>lexically suggest logically define metric</rdfs:label>
@@ -1782,6 +1769,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with annotation properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are annotation properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are annotation properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>NxAP</rdf1:acronym>
         <rdfs:comment>The total number of annotation property names over the total number of annotation properties.</rdfs:comment>
         <rdfs:label>names per annotation property metric</rdfs:label>
@@ -1862,6 +1850,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with classes, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are classes without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are classes with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>NxC</rdf1:acronym>
         <rdfs:comment>The total number of class names over the total number of classes.</rdfs:comment>
         <rdfs:label>names per class metric</rdfs:label>
@@ -1942,6 +1931,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with data type properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are data type properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are data type properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>NxDP</rdf1:acronym>
         <rdfs:comment>The total number of data property names over the total number of data properties.</rdfs:comment>
         <rdfs:label>names per data property metric</rdfs:label>
@@ -2022,6 +2012,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with object properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are object properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are object properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>NxOP</rdf1:acronym>
         <rdfs:comment>The total number of object property names over the total number of object properties.</rdfs:comment>
         <rdfs:label>names per object property metric</rdfs:label>
@@ -2056,6 +2047,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with properties, which can also be provided by using different annotation properties used by the community to include names (rdfs:label, skos:prefLabel, foaf:name, etc.). This metric is calculated as the total number of names associated with ontology properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>NxP</rdf1:acronym>
         <rdfs:comment>Number of names per property in the ontology, considering object, datatype, and annotation properties.</rdfs:comment>
         <rdfs:label>names per property metric</rdfs:label>
@@ -2090,6 +2082,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>This metric calculates the number of classes asserted in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>NCLASSES</rdf1:acronym>
         <rdfs:label>number of classes metric</rdfs:label>
     </owl:Class>
@@ -2141,6 +2134,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric examines the names of the ontology classes, stabished by using &apos;rdfs:label&apos;, and identifies the number of lexical regularities appearing in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>NLR</rdf1:acronym>
         <rdfs:comment>The number of lexical regularities found in the ontology.</rdfs:comment>
         <rdfs:label>number of lexical regularities metric</rdfs:label>
@@ -2193,6 +2187,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric returns the number of ontology classes whose complete name, set by using &apos;rdfs:label&apos;, is a lexical regularity.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>NLRC</rdf1:acronym>
         <rdfs:comment>The number of ontology classes whose name is a lexical regularity.</rdfs:comment>
         <rdfs:label>number of lexical regularity classes metric</rdfs:label>
@@ -2280,6 +2275,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of object properties lacking a description in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>OPWND</rdf1:acronym>
         <rdfs:comment>The Percentage of object properties lacking a description in the ontology.</rdfs:comment>
         <rdfs:label>object properties with no description metric</rdfs:label>
@@ -2360,6 +2356,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of object properties lacking a name in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>OPWNN</rdf1:acronym>
         <rdfs:comment>The Percentage of object properties lacking a name in the ontology.</rdfs:comment>
         <rdfs:label>object properties with no name metric</rdfs:label>
@@ -2440,6 +2437,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of object properties lacking a synonym in the ontology.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>OPWNS</rdf1:acronym>
         <rdfs:comment>The Percentage of object properties lacking a synonym in the ontology.</rdfs:comment>
         <rdfs:label>object properties with no synonym metric</rdfs:label>
@@ -2510,18 +2508,6 @@
         <skos:definition>The object property does not have any synonym.</skos:definition>
         <oquo:hasRecommendation>Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.</oquo:hasRecommendation>
     </owl:Class>
-    
-
-
-    <!-- https://purl.org/oquo#RawScale -->
-
-    <owl:Class rdf:about="https://purl.org/oquo#RawScale"/>
-    
-
-
-    <!-- https://purl.org/oquo-oquare-qm#StructuralAccuracyCharacteristic -->
-
-    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#StructuralAccuracyCharacteristic"/>
     
 
 
@@ -2598,6 +2584,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with annotation properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>SxAP</rdf1:acronym>
         <rdfs:comment>The total number of annotation property synonyms over the total number of annotation properties.</rdfs:comment>
         <rdfs:label>synonyms per annotation property metric</rdfs:label>
@@ -2678,6 +2665,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with classes, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>SxC</rdf1:acronym>
         <rdfs:comment>The total number of class synonyms over the total number of classes.</rdfs:comment>
         <rdfs:label>synonyms per class metric</rdfs:label>
@@ -2758,6 +2746,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with data type properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>SxDP</rdf1:acronym>
         <rdfs:comment>The total number of data property synonyms over the total number of data properties.</rdfs:comment>
         <rdfs:label>synonyms per data property metric</rdfs:label>
@@ -2838,6 +2827,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with object properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>SxOP</rdf1:acronym>
         <rdfs:comment>The total number of object property synonyms over the total number of object properties.</rdfs:comment>
         <rdfs:label>synonyms per object property metric</rdfs:label>
@@ -2872,6 +2862,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>SxP</rdf1:acronym>
         <rdfs:comment>The total number of property synonyms over the total number of properties, including data, object and annotation properties.</rdfs:comment>
         <rdfs:label>synonyms per property metric</rdfs:label>
@@ -2942,10 +2933,59 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric is related to the ontology design principle that states that classes in the same taxonomy should share part of their name, since subclasses are specializations of the parent class. In other words, class names should follow a genus-differentia style. This metric is calculated as the ratio of subclasses of an LR class that exhibit the lexical regularity of the parent class. This requires to calculate how many subclasses of a given LR class exhibit the lexical regularity in their name (positive cases) and how many do not (negative cases). The value of the metric is calculated by dividing the positive cases by the total number of cases. It is calculated for each LR class. The final value of the metric for an ontology is calculated as the sum of all the positive cases divided by the sum of all the positive and negative cases obtained by each LR class in the ontology. The value is in the range [0, 1], the highest values representing the best values for the metric.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
         <rdf1:acronym>SYSNAM</rdf1:acronym>
         <rdfs:comment>The degree in which hierarchies under LR classes exhibit the lexical regularity of the parent class.</rdfs:comment>
         <rdfs:label>systematic naming metric</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- https://purl.org/oquo-oquare-qm#ControlledVocabularyCharacteristic -->
+
+    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#ControlledVocabularyCharacteristic"/>
+    
+
+
+    <!-- https://purl.org/oquo-oquare-qm#EaseOfUseCharacteristic -->
+
+    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#EaseOfUseCharacteristic"/>
+    
+
+
+    <!-- https://purl.org/oquo-oquare-qm#EfficiencyInUseCharacteristic -->
+
+    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#EfficiencyInUseCharacteristic"/>
+    
+
+
+    <!-- https://purl.org/oquo-oquare-qm#HelpfulnessCharacteristic -->
+
+    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#HelpfulnessCharacteristic"/>
+    
+
+
+    <!-- https://purl.org/oquo-oquare-qm#IndexingAndLinkingCharacteristic -->
+
+    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#IndexingAndLinkingCharacteristic"/>
+    
+
+
+    <!-- https://purl.org/oquo-oquare-qm#KnowledgeReuseCharacteristic -->
+
+    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#KnowledgeReuseCharacteristic"/>
+    
+
+
+    <!-- https://purl.org/oquo-oquare-qm#LearnabilityCharacteristic -->
+
+    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#LearnabilityCharacteristic"/>
+    
+
+
+    <!-- https://purl.org/oquo-oquare-qm#StructuralAccuracyCharacteristic -->
+
+    <owl:Class rdf:about="https://purl.org/oquo-oquare-qm#StructuralAccuracyCharacteristic"/>
     
 
 
@@ -3370,6 +3410,20 @@
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
         <obo:IAO_0000115>The degree in which hierarchies under LR classes exhibit the lexical regularity of the parent class.</obo:IAO_0000115>
         <rdfs:label>systematic naming metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/oquo-huron#huron-software-agent -->
+
+    <owl:NamedIndividual rdf:about="https://purl.org/oquo-huron#huron-software-agent">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+        <obo:IAO_0000115 xml:lang="en">The software implementation of HURON (HUman Readability ONtologies), a framework for assessing the human readability of ontologies. Given an ontology, it computes the 34 HURON metrics, which measure the names, descriptions and synonyms of its classes and properties, as well as the lexical regularities and systematic naming of class labels, and reports the issues detected. It acts as the agent of the evaluations whose results are described with this module.</obo:IAO_0000115>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
+        <schema:codeRepository rdf:resource="https://github.com/tecnomod-um/huron"/>
+        <rdfs:comment xml:lang="en">Software that implements the HURON framework and computes its metrics.</rdfs:comment>
+        <rdfs:label>huron software agent</rdfs:label>
+        <foaf:homepage rdf:resource="https://semantics.inf.um.es/huron/"/>
     </owl:NamedIndividual>
     
 

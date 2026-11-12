@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>es.um.dis.tecnomod</groupId>
 	<artifactId>huron</artifactId>
-	<version>0.0.14</version>
+	<version>0.0.15</version>
 
 	<properties>
 		<commons-cli.version>1.4</commons-cli.version>
 		<main.class>es.um.dis.tecnomod.huron.main.Huron</main.class>
-		<huron-lib.version>1.0.1</huron-lib.version>
+		<huron-lib.version>1.0.2</huron-lib.version>
 	</properties>
 	<build>
 		<plugins>
