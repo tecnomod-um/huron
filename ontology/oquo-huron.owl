@@ -22,7 +22,7 @@
      xmlns:QualityModel="http://purl.org/net/QualityModel#"
      xmlns:oquo-oquare-qm="https://purl.org/oquo-oquare-qm#">
     <owl:Ontology rdf:about="https://purl.org/oquo-huron">
-        <owl:versionIRI rdf:resource="https://purl.org/oquo-huron/v2.0.1"/>
+        <owl:versionIRI rdf:resource="https://purl.org/oquo-huron/v2.0.2"/>
         <owl:imports rdf:resource="https://purl.org/oquo-oquare-qm"/>
         <dc:contributor rdf:resource="https://orcid.org/0000-0002-7558-2880"/>
         <dc:contributor rdf:resource="https://orcid.org/0000-0003-0201-3115"/>
@@ -35,10 +35,10 @@
         <terms:license rdf:resource="https://www.gnu.org/licenses/gpl-3.0.html"/>
         <vann:preferredNamespacePrefix>oquo-huron</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://purl.org/oquo-huron#</vann:preferredNamespaceUri>
-        <schema:codeRepository>https://github.com/tecnomod-um/huron</schema:codeRepository>
+        <schema:codeRepository rdf:resource="https://github.com/tecnomod-um/huron"/>
         <rdfs:seeAlso rdf:resource="http://semantics.inf.um.es/huron/"/>
         <rdfs:seeAlso rdf:resource="https://github.com/tecnomod-um/huron"/>
-        <foaf:homepage>http://semantics.inf.um.es/huron/</foaf:homepage>
+        <foaf:homepage rdf:resource="http://semantics.inf.um.es/huron/"/>
     </owl:Ontology>
     
 
