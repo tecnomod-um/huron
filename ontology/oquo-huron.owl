@@ -39,6 +39,7 @@
         <rdfs:seeAlso rdf:resource="http://semantics.inf.um.es/huron/"/>
         <rdfs:seeAlso rdf:resource="https://github.com/tecnomod-um/huron"/>
         <foaf:homepage rdf:resource="http://semantics.inf.um.es/huron/"/>
+        <dc:source rdf:resource="https://doi.org/10.1109/ACCESS.2023.3316512"/>
     </owl:Ontology>
     
 
